@@ -1,0 +1,422 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12238609824,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTestSteps.starsession()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login",
+        "description": "",
+        "id": "as-a-user-i-want-to-able-to-log-in;login",
+        "after": [
+          {
+            "result": {
+              "duration": 1319008933,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTestSteps.closeSession()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4235190536,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "am on the login page",
+            "match": {
+              "location": "LoginTestPageRegularx.am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 292896059,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter my \"username\" as \"Montego001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 12
+                },
+                {
+                  "val": "Montego001",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginTestPageRegularx.i_enter_my_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2273617982,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my \"password\" as \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 12
+                },
+                {
+                  "val": "12345678",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginTestPageRegularx.i_enter_my_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1591305186,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click  login button",
+            "match": {
+              "location": "LoginTestPageRegularx.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36644,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I shoud be on the login page",
+            "match": {
+              "location": "LoginTestPageRegularx.iShoudBeOnTheLoginPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TestCompleted"
+          }
+        ]
+      }
+    ],
+    "name": "as a user I want to able to log in",
+    "description": "",
+    "id": "as-a-user-i-want-to-able-to-log-in",
+    "keyword": "Feature",
+    "uri": "LoginTestpageRegx.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6254352550,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTestSteps.starsession()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "login",
+        "description": "",
+        "id": "as-a-user-i-want-to-be-able-to-login;login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 936000228,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTestSteps.closeSession()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3823963000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "am on the login page",
+            "match": {
+              "location": "LoginTestPageRegularx.am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I enter my \"Username\" as \"montego01\" in the textfield",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I enter my \"Password\" as \"12345678\" in the textfield",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click the login button",
+            "match": {
+              "location": "LoginTestSteps.iClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I should be on home page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@TestCompleted"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5694496342,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTestSteps.starsession()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "login",
+        "description": "",
+        "id": "as-a-user-i-want-to-be-able-to-login;login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 953851775,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTestSteps.closeSession()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3670571665,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "am on the login page",
+            "match": {
+              "location": "LoginTestPageRegularx.am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I enter my \"Username\" as \"montego123\" in the textfield",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I enter my \"Password\" as \"123459999\" in the textfield",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click the login button",
+            "match": {
+              "location": "LoginTestSteps.iClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I should be on home page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@TestCompleted"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5446862593,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTestSteps.starsession()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "login",
+        "description": "",
+        "id": "as-a-user-i-want-to-be-able-to-login;login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 844823911,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTestSteps.closeSession()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3666205360,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "am on the login page",
+            "match": {
+              "location": "LoginTestPageRegularx.am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I enter my \"Username\" as \"claudiomontego\" in the textfield",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I enter my \"Password\" as \"128888777\" in the textfield",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click the login button",
+            "match": {
+              "location": "LoginTestSteps.iClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I should be on home page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@TestCompleted"
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to be able to login",
+    "description": "using my username and password and confirm\nam on the home page",
+    "id": "as-a-user-i-want-to-be-able-to-login",
+    "keyword": "Feature",
+    "uri": "ScenarioOutlineExamplesTable.feature"
+  }
+]
