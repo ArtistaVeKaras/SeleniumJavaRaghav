@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9595408a-a036-465c-b5b3-c21de1dbacb1" name="Default" comment="">
-      <change afterPath="$APPLICATION_CONFIG_DIR$/options/ide.general.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IdeaProjects/AutomateForthAttempt/src/test/java/pagesobj/LoginPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IdeaProjects/AutomateForthAttempt/src/test/java/stepsdef/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IdeaProjects/AutomateForthAttempt/src/test/java/stepsdef/VerifyAllTabPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IdeaProjects/AutomateForthAttempt/src/test/java/stepsdef/VerifyMainLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IdeaProjects/AutomateForthAttempt/src/test/java/util/DriverUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IdeaProjects/AutomateForthAttempt/src/test/resources/VerifyAllMenuPages.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IdeaProjects/AutomateForthAttempt/src/test/resources/VerifyLoginLogout.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IdeaProjects/AutomateForthAttempt/src/test/resources/VerifyMainLogin.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IdeaProjects/AutomateForthAttempt/src/test/resources/VeritfyTabsScenarioTable.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IdeaProjects/AutomationPractise5/src/test/java/pages/LoginPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IdeaProjects/AutomationPractise5/src/test/java/steps/LoginTestStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IdeaProjects/AutomationPractise5/src/test/java/util/DriverUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../temas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/util/drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/util/drivers/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdef/LoginTestPageRegularx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdef/LoginTestPageRegularx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/DriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/DriverUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/LoginTestPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/VerifyLogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTestPage.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdef/ClickAllTabs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdef/ClickAllTabs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdef/LoginTestPageRegularx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdef/LoginTestPageRegularx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdef/VerifyLoginLogoutSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdef/VerifyLoginLogoutSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/DriverUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/DriverUtil.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,10 +31,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/VerifyLoginLogout.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/util/DriverUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="95">
+              <caret line="14" column="87" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,7 +52,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -71,7 +74,6 @@
         <option value="$PROJECT_DIR$/src/test/java/stepdef/LoginTestSteps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/ClickAlltheTabs.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/ClickAllTab.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/util/DriverUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdef/DataTable.java" />
         <option value="$PROJECT_DIR$/src/test/resources/ScenarioOutlineExamplesTable.feature" />
@@ -86,10 +88,18 @@
         <option value="$PROJECT_DIR$/src/test/resources/LoginTestPageAgain.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepdef/ScenarioOutlineExTable.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdef/LoginStepsAgain.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdef/LoginTestPageRegularx.java" />
         <option value="$PROJECT_DIR$/src/test/resources/VerifyLoginLogout.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdef/LoginTestPageRegularx.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/LoginPages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/util/DriverUtil.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -103,21 +113,23 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1000" />
-    <option name="y" value="24" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="213" />
+    <option name="y" value="-21" />
     <option name="width" value="1557" />
-    <option name="height" value="1321" />
+    <option name="height" value="1107" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <flattenPackages ProjectPane="true" />
+      <compactDirectories Scope="true" />
       <autoscrollToSource ProjectPane="false" />
       <autoscrollFromSource ProjectPane="false" />
       <foldersAlwaysOnTop value="false" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,7 +141,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -184,25 +195,37 @@
               <item name="TestAutomate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="util" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="util.drivers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="inteljProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="TestAutomate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/admin/Intelj Idea/TestAutomateScondVersion/src/test/java/pages/LoginPages.java" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575907989296" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="stepdef" />
     </key>
@@ -223,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: LoginTestPage">
+  <component name="RunManager" selected="Cucumber java.Feature: VerifyLogin">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -281,13 +304,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: LoginTestpageRegx" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/LoginTestpageRegx.feature" />
+    <configuration name="Feature: VerifyLogin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/VerifyLogin.feature" />
       <option name="GLUE" value="stepdef" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="TestAutomate" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: LoginTestpageRegx" />
+      <option name="SUGGESTED_NAME" value="Feature: VerifyLogin" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -298,13 +322,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: VerifyClickAllTab" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/VerifyClickAllTab.feature" />
+    <configuration name="Scenario: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/VerifyLogin.feature" />
       <option name="GLUE" value="stepdef" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="TestAutomate" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: VerifyClickAllTab" />
+      <option name="NAME_FILTER" value="^Login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -332,19 +358,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Feature: VerifyClickAllTab" />
-      <item itemvalue="Cucumber java.Feature: LoginTestpageRegx" />
       <item itemvalue="Cucumber java.Feature: LoginTestPage" />
       <item itemvalue="Cucumber java.Feature: AllTabs" />
       <item itemvalue="Cucumber java.Feature: LoginTestPageAgain" />
+      <item itemvalue="Cucumber java.Feature: VerifyLogin" />
+      <item itemvalue="Cucumber java.Scenario: Login" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: VerifyLogin" />
+        <item itemvalue="Cucumber java.Scenario: Login" />
         <item itemvalue="Cucumber java.Feature: LoginTestPage" />
         <item itemvalue="Cucumber java.Feature: LoginTestPageAgain" />
         <item itemvalue="Cucumber java.Feature: AllTabs" />
-        <item itemvalue="Cucumber java.Feature: LoginTestpageRegx" />
-        <item itemvalue="Cucumber java.Feature: VerifyClickAllTab" />
       </list>
     </recent_temporary>
   </component>
@@ -365,27 +391,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Click_on_all_nav_tabs - 2018.08.20 at 21h 55m 22s.xml">
-      <configuration name="Scenario: Click on all nav tabs" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__VerifyClickAllTab - 2018.08.20 at 22h 00m 24s.xml">
-      <configuration name="Feature: VerifyClickAllTab" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__VerifyClickAllTab - 2018.08.20 at 22h 01m 24s.xml">
-      <configuration name="Feature: VerifyClickAllTab" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__VerifyClickAllTab - 2018.08.20 at 22h 03m 45s.xml">
-      <configuration name="Feature: VerifyClickAllTab" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__LoginTestpageRegx - 2018.08.20 at 23h 33m 33s.xml">
-      <configuration name="Feature: LoginTestpageRegx" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__LoginTestpageRegx - 2018.08.20 at 23h 35m 28s.xml">
-      <configuration name="Feature: LoginTestpageRegx" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__LoginTestPage - 2018.08.21 at 11h 47m 19s.xml">
-      <configuration name="Feature: LoginTestPage" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__AllTabs - 2018.08.21 at 12h 03m 50s.xml">
       <configuration name="Feature: AllTabs" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -394,6 +399,27 @@
     </history-entry>
     <history-entry file="Feature__LoginTestPage - 2018.08.21 at 12h 32m 30s.xml">
       <configuration name="Feature: LoginTestPage" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__VerifyLogin - 2019.12.09 at 15h 57m 03s.xml">
+      <configuration name="Feature: VerifyLogin" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__VerifyLogin - 2019.12.09 at 15h 59m 25s.xml">
+      <configuration name="Feature: VerifyLogin" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Login - 2019.12.09 at 16h 02m 18s.xml">
+      <configuration name="Scenario: Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Login - 2019.12.09 at 16h 03m 57s.xml">
+      <configuration name="Scenario: Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__VerifyLogin - 2019.12.09 at 16h 07m 22s.xml">
+      <configuration name="Feature: VerifyLogin" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__VerifyLogin - 2019.12.09 at 16h 08m 45s.xml">
+      <configuration name="Feature: VerifyLogin" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__VerifyLogin - 2019.12.09 at 16h 10m 05s.xml">
+      <configuration name="Feature: VerifyLogin" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -409,12 +435,13 @@
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Team" side_tool="true" />
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50668895" side_tool="true" weight="0.24576895" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.5986111" visible="true" weight="0.22794692" />
+      <window_info content_ui="combo" x="684" y="64" width="380" height="582" id="Project" order="5" sideWeight="0.5986111" type="FLOATING" weight="0.18188915" />
       <window_info id="Structure" order="6" sideWeight="0.40138888" side_tool="true" weight="0.21674491" />
       <window_info anchor="bottom" auto_hide="true" x="0" y="0" width="1280" height="689" id="Terminal" order="0" type="FLOATING" weight="0.6474211" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.26754385" side_tool="true" weight="0.32440478" />
@@ -422,11 +449,13 @@
       <window_info anchor="bottom" id="Messages" order="3" weight="0.328125" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.73245615" weight="0.3534226" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.73245615" visible="true" weight="0.5782946" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32917705" />
+      <window_info anchor="right" id="Key Promoter X" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -466,9 +495,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/VerifyClickAllTab.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/LoginTestSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -517,27 +543,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/LoginTestPage.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/LoginTestpageRegx.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/LoginTestPageRegularx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -548,20 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/VerifyLoginLogoutSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/DataTablePages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/ClickAllTabPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -569,35 +564,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/DriverUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/VerifyLoginLogout.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="56">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/DataTablePages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/VerifyClickAllTab.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/LoginTestpageRegx.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/LoginTestPageRegularx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/VerifyLoginLogoutSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="364">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
           <folding>
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/VerifyLoginLogout.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/VerifyLogin.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="43">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/DriverUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="87" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

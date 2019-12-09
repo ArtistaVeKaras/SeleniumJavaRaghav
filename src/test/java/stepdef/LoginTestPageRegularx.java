@@ -10,8 +10,6 @@ public class LoginTestPageRegularx {
 
     LoginPages loginPageRex = new LoginPages();
 
-
-
     @Given("^am on the login page$")
     public void am_on_the_login_page() throws Throwable {
         loginPageRex.launchurl();
