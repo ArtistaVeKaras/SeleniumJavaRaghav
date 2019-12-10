@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9595408a-a036-465c-b5b3-c21de1dbacb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/util/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/util/drivers/geckodriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WebDriverManagers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdef/AmazonLoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/AmazonLogin.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdef/LoginTestPageRegularx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdef/LoginTestPageRegularx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdef/LoginTestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdef/LoginTestSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/util/DriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/DriverUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/LoginTestPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/VerifyLogin.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTestPage.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/DataTable.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/DataTable.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/LoginTestpageRegx.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/LoginTestpageRegx.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/VerifyLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/VerifyLogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DataTable.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DataTable.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTestpageRegx.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginTestpageRegx.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdef/ClickAllTabs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdef/ClickAllTabs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdef/LoginTestPageRegularx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdef/LoginTestPageRegularx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdef/VerifyLoginLogoutSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdef/VerifyLoginLogoutSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdef/LoginTestSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdef/LoginTestSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/util/DriverUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/DriverUtil.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,10 +35,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/util/DriverUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/WebDriverManagers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="14" column="87" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
+            <state relative-caret-position="208">
+              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,13 +55,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sele</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/BookYourJet.eature" />
         <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTestSteps.java" />
@@ -66,12 +74,10 @@
         <option value="$PROJECT_DIR$/src/test/java/stepdef/MyStepdefsRegularx.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdef/LoginTestStepsRegularx.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdef/RunnerClass.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/DataTable.feature" />
         <option value="$PROJECT_DIR$/src/test/java/pages/DataTablePages.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdef/ClickAllTabPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdef/ClickAllTab.java" />
         <option value="$PROJECT_DIR$/src/test/java/util/refactor.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdef/LoginTestSteps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/ClickAlltheTabs.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/ClickAllTab.feature" />
         <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
@@ -82,7 +88,6 @@
         <option value="$PROJECT_DIR$/src/test/java/stepdef/ClickAllTabs.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/ClickAllTabPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/VerifyClickAllTab.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/LoginTestpageRegx.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/LoginTestPage.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/AllTabs.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/LoginTestPageAgain.feature" />
@@ -90,8 +95,19 @@
         <option value="$PROJECT_DIR$/src/test/java/stepdef/LoginStepsAgain.java" />
         <option value="$PROJECT_DIR$/src/test/resources/VerifyLoginLogout.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepdef/LoginTestPageRegularx.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/VerifyLogin.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/AmazonLogin.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/AmazonLogin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdef/LoginTestSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/LoginPages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdef/AmazonLoginSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/DataTable.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/LoginTestpageRegx.feature" />
         <option value="$PROJECT_DIR$/src/test/java/util/DriverUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/AmazonLoginPage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/WebDriverManagers.java" />
       </list>
     </option>
   </component>
@@ -129,7 +145,6 @@
       <foldersAlwaysOnTop value="false" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,6 +156,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -195,15 +211,6 @@
               <item name="TestAutomate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="util" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="util.drivers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="inteljProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="TestAutomate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
@@ -214,24 +221,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/admin/Intelj Idea/TestAutomateScondVersion/src/test/java/pages/LoginPages.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575907989296" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576018902458" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/util" />
+      <recent name="$PROJECT_DIR$/src/test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="stepdef" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/util" />
-      <recent name="$PROJECT_DIR$/src/test" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -246,54 +253,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: VerifyLogin">
+  <component name="RunManager" selected="Application.WebDriverManagers">
+    <configuration name="WebDriverManagers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pages.WebDriverManagers" />
+      <module name="TestAutomate" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: AllTabs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/AllTabs.feature" />
+    <configuration name="Feature: AmazonLogin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/AmazonLogin.feature" />
       <option name="GLUE" value="stepdef" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="TestAutomate" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: AllTabs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: LoginTestPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/LoginTestPage.feature" />
-      <option name="GLUE" value="stepdef" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="TestAutomate" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: LoginTestPage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: LoginTestPageAgain" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/LoginTestPageAgain.feature" />
-      <option name="GLUE" value="stepdef" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="TestAutomate" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: LoginTestPageAgain" />
+      <option name="SUGGESTED_NAME" value="Feature: AmazonLogin" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -312,6 +300,25 @@
       <module name="TestAutomate" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
       <option name="SUGGESTED_NAME" value="Feature: VerifyLogin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Login to Amazon Webpage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/AmazonLogin.feature" />
+      <option name="GLUE" value="stepdef pages" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="TestAutomate" />
+      <option name="NAME_FILTER" value="^Login to Amazon Webpage$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login to Amazon Webpage$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login to Amazon Webpage" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -358,19 +365,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Feature: LoginTestPage" />
-      <item itemvalue="Cucumber java.Feature: AllTabs" />
-      <item itemvalue="Cucumber java.Feature: LoginTestPageAgain" />
       <item itemvalue="Cucumber java.Feature: VerifyLogin" />
       <item itemvalue="Cucumber java.Scenario: Login" />
+      <item itemvalue="Cucumber java.Feature: AmazonLogin" />
+      <item itemvalue="Cucumber java.Scenario: Login to Amazon Webpage" />
+      <item itemvalue="Application.WebDriverManagers" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Feature: VerifyLogin" />
+        <item itemvalue="Application.WebDriverManagers" />
         <item itemvalue="Cucumber java.Scenario: Login" />
-        <item itemvalue="Cucumber java.Feature: LoginTestPage" />
-        <item itemvalue="Cucumber java.Feature: LoginTestPageAgain" />
-        <item itemvalue="Cucumber java.Feature: AllTabs" />
+        <item itemvalue="Cucumber java.Scenario: Login to Amazon Webpage" />
+        <item itemvalue="Cucumber java.Feature: VerifyLogin" />
+        <item itemvalue="Cucumber java.Feature: AmazonLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -391,35 +398,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__AllTabs - 2018.08.21 at 12h 03m 50s.xml">
-      <configuration name="Feature: AllTabs" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Login_to_Amazon_Webpage - 2019.12.09 at 21h 57m 40s.xml">
+      <configuration name="Scenario: Login to Amazon Webpage" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__LoginTestPageAgain - 2018.08.21 at 12h 08m 07s.xml">
-      <configuration name="Feature: LoginTestPageAgain" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Login_to_Amazon_Webpage - 2019.12.09 at 21h 59m 13s.xml">
+      <configuration name="Scenario: Login to Amazon Webpage" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__LoginTestPage - 2018.08.21 at 12h 32m 30s.xml">
-      <configuration name="Feature: LoginTestPage" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Login_to_Amazon_Webpage - 2019.12.09 at 22h 08m 19s.xml">
+      <configuration name="Scenario: Login to Amazon Webpage" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__VerifyLogin - 2019.12.09 at 15h 57m 03s.xml">
-      <configuration name="Feature: VerifyLogin" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Login_to_Amazon_Webpage - 2019.12.09 at 22h 08m 44s.xml">
+      <configuration name="Scenario: Login to Amazon Webpage" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__VerifyLogin - 2019.12.09 at 15h 59m 25s.xml">
-      <configuration name="Feature: VerifyLogin" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Login_to_Amazon_Webpage - 2019.12.09 at 22h 10m 25s.xml">
+      <configuration name="Scenario: Login to Amazon Webpage" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Login - 2019.12.09 at 16h 02m 18s.xml">
+    <history-entry file="Scenario__Login - 2019.12.10 at 21h 37m 36s.xml">
       <configuration name="Scenario: Login" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Login - 2019.12.09 at 16h 03m 57s.xml">
+    <history-entry file="Scenario__Login - 2019.12.10 at 21h 40m 20s.xml">
       <configuration name="Scenario: Login" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__VerifyLogin - 2019.12.09 at 16h 07m 22s.xml">
-      <configuration name="Feature: VerifyLogin" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Login - 2019.12.10 at 21h 41m 54s.xml">
+      <configuration name="Scenario: Login" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__VerifyLogin - 2019.12.09 at 16h 08m 45s.xml">
-      <configuration name="Feature: VerifyLogin" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Login - 2019.12.10 at 21h 43m 10s.xml">
+      <configuration name="Scenario: Login" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__VerifyLogin - 2019.12.09 at 16h 10m 05s.xml">
-      <configuration name="Feature: VerifyLogin" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__Login - 2019.12.10 at 22h 26m 31s.xml">
+      <configuration name="Scenario: Login" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -435,27 +442,26 @@
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Team" side_tool="true" />
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50668895" side_tool="true" weight="0.24576895" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" x="684" y="64" width="380" height="582" id="Project" order="5" sideWeight="0.5986111" type="FLOATING" weight="0.18188915" />
+      <window_info content_ui="combo" x="474" y="62" width="423" height="641" id="Project" order="5" sideWeight="0.5986111" type="FLOATING" weight="0.18188915" />
       <window_info id="Structure" order="6" sideWeight="0.40138888" side_tool="true" weight="0.21674491" />
+      <window_info id="Team" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32868218" />
       <window_info anchor="bottom" auto_hide="true" x="0" y="0" width="1280" height="689" id="Terminal" order="0" type="FLOATING" weight="0.6474211" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.26754385" side_tool="true" weight="0.32440478" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.2685402" side_tool="true" weight="0.5782946" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32917705" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.328125" />
+      <window_info active="true" anchor="bottom" id="Messages" order="3" visible="true" weight="0.32248062" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.73245615" visible="true" weight="0.5782946" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32868218" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.7314598" weight="0.40155038" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32917705" />
-      <window_info anchor="right" id="Key Promoter X" />
-      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -464,6 +470,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Key Promoter X" order="9" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -495,13 +503,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/LoginTestSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -529,24 +530,10 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/BookYourJet.feature">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/DataTable.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/DataTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -564,13 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/VerifyLoginLogout.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/DataTablePages.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -584,9 +564,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/VerifyClickAllTab.feature">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/LoginTestpageRegx.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/LoginTestPageRegularx.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -594,40 +571,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/VerifyLoginLogoutSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/VerifyLogin.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="196">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        <state relative-caret-position="28">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/LoginTestSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1163#1164#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/VerifyLogin.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/AmazonLoginSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="461">
+          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/AmazonLogin.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/DataTable.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/LoginTestpageRegx.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/VerifyLoginLogout.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/VerifyLoginLogoutSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/util/DriverUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="14" column="87" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
+        <state relative-caret-position="223">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/AmazonLoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="140">
+            <caret line="5" column="86" selection-start-line="5" selection-start-column="86" selection-end-line="5" selection-end-column="86" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/WebDriverManagers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -674,7 +731,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>10</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -691,7 +748,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

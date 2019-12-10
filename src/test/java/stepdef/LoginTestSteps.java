@@ -17,21 +17,17 @@ public class LoginTestSteps  {
     @Before
     public void starsession() {
         driverutil.setdrivers("firefox");
-
     }
-
 
     @Given("^am on the landing Page$")
     public void am_on_the_landing_Page() throws Throwable {
         loginpage.launchurl();
     }
 
-
     @When("^I enter my username and password$")
     public void iEnterMyUsernameAndPassword() throws Throwable {
          loginpage.username();
          //loginpage.passwordRegx();
-
     }
 
     @And("^I click the login button$")
@@ -45,8 +41,6 @@ public class LoginTestSteps  {
 
     @After
     public void closeSession (){
-
         driverutil.tearDown();
     }
-
 }

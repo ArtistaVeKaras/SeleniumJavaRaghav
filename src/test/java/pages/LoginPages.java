@@ -5,7 +5,6 @@ import util.DriverUtil;
 import java.util.concurrent.TimeUnit;
 
 public class LoginPages extends DriverUtil {
-
   //declaring the global variables by using the By class from Selenium
   public static By UsernameTextField = By.id("usernamelogin");
   public static By PasswordTextField = By.id("loginPassword");
