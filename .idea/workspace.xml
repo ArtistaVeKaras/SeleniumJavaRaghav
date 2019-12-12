@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9595408a-a036-465c-b5b3-c21de1dbacb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WebDriverManagers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdef/AmazonLoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/AmazonLogin.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/googlePages/DuckDuckGoSearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/googlePages/googleSearchText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdef/LoginTestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdef/LoginTestSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/util/DriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/DriverUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/DataTable.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/DataTable.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/LoginTestpageRegx.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/LoginTestpageRegx.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/VerifyLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/VerifyLogin.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DataTable.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DataTable.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTestpageRegx.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginTestpageRegx.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdef/LoginTestSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdef/LoginTestSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/util/DriverUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/DriverUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WebDriverManagers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumJavaGoogle/WebDriverManagers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/TestAutomate.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/TestAutomate.kotlin_module" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,22 +15,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="TestAutomateScondVersion" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/WebDriverManagers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,54 +31,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/resources/BookYourJet.eature" />
-        <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LoginTestSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/StepDef/LoginTestSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/util/DriverUtitl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdef/MyStepdefsRegularx.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdef/LoginTestStepsRegularx.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdef/RunnerClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/DataTablePages.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdef/ClickAllTabPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdef/ClickAllTab.java" />
-        <option value="$PROJECT_DIR$/src/test/java/util/refactor.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/ClickAlltheTabs.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/ClickAllTab.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdef/DataTable.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/ScenarioOutlineExamplesTable.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdef/VerifyLoginLogout.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdef/VerifyLoginLogoutSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdef/ClickAllTabs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/ClickAllTabPage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/VerifyClickAllTab.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/LoginTestPage.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/AllTabs.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/LoginTestPageAgain.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdef/ScenarioOutlineExTable.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdef/LoginStepsAgain.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/VerifyLoginLogout.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdef/LoginTestPageRegularx.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/VerifyLogin.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/AmazonLogin.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/AmazonLogin.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdef/LoginTestSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/LoginPages.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdef/AmazonLoginSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/DataTable.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/LoginTestpageRegx.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/util/DriverUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/AmazonLoginPage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/WebDriverManagers.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -118,106 +38,14 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="TestAutomate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="213" />
-    <option name="y" value="-21" />
-    <option name="width" value="1557" />
-    <option name="height" value="1107" />
-  </component>
+  <component name="ProjectId" id="1UoPoQ9a8PEriRSG5Y1bKx5BYEy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
-      <flattenPackages ProjectPane="true" />
-      <compactDirectories Scope="true" />
-      <autoscrollToSource ProjectPane="false" />
-      <autoscrollFromSource ProjectPane="false" />
-      <foldersAlwaysOnTop value="false" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="inteljProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="inteljProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="TestAutomate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="inteljProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="TestAutomate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="inteljProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="TestAutomate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="inteljProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="TestAutomate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="inteljProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="TestAutomate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="inteljProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="TestAutomate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="stepdef" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="inteljProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="TestAutomate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="util" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="inteljProject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="TestAutomate" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/admin/Intelj Idea/TestAutomateScondVersion/src/test/java/pages/LoginPages.java" />
@@ -230,37 +58,26 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/util" />
-      <recent name="$PROJECT_DIR$/src/test" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="stepdef" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java" />
+      <recent name="$PROJECT_DIR$/src/test/java/util" />
+      <recent name="$PROJECT_DIR$/src/test" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.WebDriverManagers">
     <configuration name="WebDriverManagers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pages.WebDriverManagers" />
+      <option name="MAIN_CLASS_NAME" value="seleniumJavaGoogle.WebDriverManagers" />
       <module name="TestAutomate" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pages.*" />
+          <option name="PATTERN" value="seleniumJavaGoogle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,22 +181,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Cucumber java.Feature: VerifyLogin" />
-      <item itemvalue="Cucumber java.Scenario: Login" />
-      <item itemvalue="Cucumber java.Feature: AmazonLogin" />
-      <item itemvalue="Cucumber java.Scenario: Login to Amazon Webpage" />
-      <item itemvalue="Application.WebDriverManagers" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.WebDriverManagers" />
-        <item itemvalue="Cucumber java.Scenario: Login" />
-        <item itemvalue="Cucumber java.Scenario: Login to Amazon Webpage" />
-        <item itemvalue="Cucumber java.Feature: VerifyLogin" />
-        <item itemvalue="Cucumber java.Feature: AmazonLogin" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES,SHOW_PROPERTIES,SHOW_INHERITED,VISIBILITY_SORTER" />
@@ -397,38 +215,6 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Scenario__Login_to_Amazon_Webpage - 2019.12.09 at 21h 57m 40s.xml">
-      <configuration name="Scenario: Login to Amazon Webpage" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Login_to_Amazon_Webpage - 2019.12.09 at 21h 59m 13s.xml">
-      <configuration name="Scenario: Login to Amazon Webpage" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Login_to_Amazon_Webpage - 2019.12.09 at 22h 08m 19s.xml">
-      <configuration name="Scenario: Login to Amazon Webpage" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Login_to_Amazon_Webpage - 2019.12.09 at 22h 08m 44s.xml">
-      <configuration name="Scenario: Login to Amazon Webpage" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Login_to_Amazon_Webpage - 2019.12.09 at 22h 10m 25s.xml">
-      <configuration name="Scenario: Login to Amazon Webpage" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Login - 2019.12.10 at 21h 37m 36s.xml">
-      <configuration name="Scenario: Login" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Login - 2019.12.10 at 21h 40m 20s.xml">
-      <configuration name="Scenario: Login" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Login - 2019.12.10 at 21h 41m 54s.xml">
-      <configuration name="Scenario: Login" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Login - 2019.12.10 at 21h 43m 10s.xml">
-      <configuration name="Scenario: Login" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Login - 2019.12.10 at 22h 26m 31s.xml">
-      <configuration name="Scenario: Login" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -438,333 +224,62 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" sideWeight="0.50668895" side_tool="true" weight="0.24576895" />
-      <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" x="474" y="62" width="423" height="641" id="Project" order="5" sideWeight="0.5986111" type="FLOATING" weight="0.18188915" />
-      <window_info id="Structure" order="6" sideWeight="0.40138888" side_tool="true" weight="0.21674491" />
-      <window_info id="Team" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32868218" />
-      <window_info anchor="bottom" auto_hide="true" x="0" y="0" width="1280" height="689" id="Terminal" order="0" type="FLOATING" weight="0.6474211" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.2685402" side_tool="true" weight="0.5782946" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32917705" />
-      <window_info active="true" anchor="bottom" id="Messages" order="3" visible="true" weight="0.32248062" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32868218" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.7314598" weight="0.40155038" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32917705" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32857144" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="8" />
-      <window_info anchor="right" id="Key Promoter X" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" sideWeight="0.50668895" side_tool="true" weight="0.24576895" />
-      <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49127182" visible="true" weight="0.32190475" />
-      <window_info id="Structure" order="6" sideWeight="0.5087282" side_tool="true" weight="0.38857144" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32873377" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.48933038" side_tool="true" weight="0.40097404" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32917705" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.3285171" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.5106696" weight="0.4021739" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32917705" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32857144" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout-to-restore>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/LoginTestPageAgain.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/ScenarioOutlineExTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/LoginStepsAgain.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/BookYourJet.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/DataTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/RunnerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ClickAllTabPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/DataTablePages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/VerifyClickAllTab.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/LoginTestPageRegularx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/VerifyLogin.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/LoginTestSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#1161#1162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/AmazonLoginSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/AmazonLogin.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/DataTable.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/LoginTestpageRegx.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/VerifyLoginLogout.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/VerifyLoginLogoutSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/DriverUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/AmazonLoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="140">
-            <caret line="5" column="86" selection-start-line="5" selection-start-column="86" selection-end-line="5" selection-end-column="86" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/WebDriverManagers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>TestAutomate</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="233" y="5" key="#Plugins" timestamp="1576021484603">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="5" key="#Plugins/0.0.1280.689@0.0.1280.689" timestamp="1576021484603" />
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1576137033824">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1576137033824" />
+    <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576020191825">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1576020191825" />
+    <state width="1281" height="229" key="GridCell.Tab.0.bottom" timestamp="1576185106686">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1281" height="229" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576185106686" />
+    <state width="1281" height="229" key="GridCell.Tab.0.center" timestamp="1576185106684">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1281" height="229" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1576185106684" />
+    <state width="1281" height="229" key="GridCell.Tab.0.left" timestamp="1576185106684">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1281" height="229" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1576185106684" />
+    <state width="1281" height="229" key="GridCell.Tab.0.right" timestamp="1576185106686">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1281" height="229" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1576185106686" />
+    <state x="157" y="0" key="SettingsEditor" timestamp="1576179560848">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="157" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1576179560848" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1576021514493">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1280.689@0.0.1280.689" timestamp="1576021514493" />
+    <state x="233" y="79" key="Vcs.Push.Dialog.v2" timestamp="1576179633247">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1576179633247" />
+    <state x="351" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1576179531181">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="351" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1576179531181" />
+    <state x="411" y="114" width="700" height="530" key="recent.locations.popup" timestamp="1576179738661">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="411" y="114" width="700" height="530" key="recent.locations.popup/0.0.1280.689@0.0.1280.689" timestamp="1576179738661" />
+    <state x="297" y="153" width="672" height="677" key="run.anything.popup" timestamp="1576138066492">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="297" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1576138066492" />
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1576138799086">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1576138799086" />
   </component>
 </project>
