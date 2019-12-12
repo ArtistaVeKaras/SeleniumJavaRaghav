@@ -11,16 +11,21 @@ public class GoogleSearchPageObjTest {
        searchGoogleTest();
     }
     public static void searchGoogleTest(){
-
-        String projectPath = System.getProperty("user.dir");
-        System.out.println("ProjectPath : "+ projectPath);
-        System.setProperty("webdriver.gecko.driver", projectPath+"\\src\\test\\java\\util\\drivers\\geckodriver.exe");
-        driver = new FirefoxDriver();
+        setUp();
         GoogleSearchPageObject searchPageObj = new GoogleSearchPageObject(driver);
         String url = "https://duckduckgo.com/";
         driver.get(url);
         searchPageObj.SearchingInputFieldQ("Kill Bill");
         searchPageObj.ClickButtonSearch();
         //driver.close();
+    }
+    // Just to prove a point that the above example can be simplified
+    //by removing all those lines of code
+    public static void setUp(){
+
+        String projectPath = System.getProperty("user.dir");
+        System.out.println("ProjectPath : "+ projectPath);
+        System.setProperty("webdriver.gecko.driver", projectPath+"\\src\\test\\java\\util\\drivers\\geckodriver.exe");
+        driver = new FirefoxDriver();
     }
 }
