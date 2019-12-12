@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9595408a-a036-465c-b5b3-c21de1dbacb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/googlePages/DuckDuckGoSearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/googlePages/googleSearchText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/googlePages/GoogleSearchPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumJavaGoogle/GoogleSearchPageObjTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WebDriverManagers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumJavaGoogle/WebDriverManagers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/TestAutomate.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/TestAutomate.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,21 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WebDriverManagers">
+  <component name="RunManager" selected="Application.GoogleSearchPageObjTest">
+    <configuration name="GoogleSearchPageObjTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seleniumJavaGoogle.GoogleSearchPageObjTest" />
+      <module name="TestAutomate" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumJavaGoogle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebDriverManagers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seleniumJavaGoogle.WebDriverManagers" />
       <module name="TestAutomate" />
@@ -87,24 +99,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: AmazonLogin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/AmazonLogin.feature" />
-      <option name="GLUE" value="stepdef" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="TestAutomate" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: AmazonLogin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,6 +177,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GoogleSearchPageObjTest" />
         <item itemvalue="Application.WebDriverManagers" />
       </list>
     </recent_temporary>
@@ -237,22 +232,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1576020191825" />
-    <state width="1281" height="229" key="GridCell.Tab.0.bottom" timestamp="1576185106686">
+    <state width="1281" height="400" key="GridCell.Tab.0.bottom" timestamp="1576188673145">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="229" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576185106686" />
-    <state width="1281" height="229" key="GridCell.Tab.0.center" timestamp="1576185106684">
+    <state width="1281" height="400" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576188673145" />
+    <state width="1281" height="400" key="GridCell.Tab.0.center" timestamp="1576188673145">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="229" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1576185106684" />
-    <state width="1281" height="229" key="GridCell.Tab.0.left" timestamp="1576185106684">
+    <state width="1281" height="400" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1576188673145" />
+    <state width="1281" height="400" key="GridCell.Tab.0.left" timestamp="1576188673145">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="229" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1576185106684" />
-    <state width="1281" height="229" key="GridCell.Tab.0.right" timestamp="1576185106686">
+    <state width="1281" height="400" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1576188673145" />
+    <state width="1281" height="400" key="GridCell.Tab.0.right" timestamp="1576188673145">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="229" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1576185106686" />
+    <state width="1281" height="400" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1576188673145" />
     <state x="157" y="0" key="SettingsEditor" timestamp="1576179560848">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -261,18 +256,18 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1280.689@0.0.1280.689" timestamp="1576021514493" />
-    <state x="233" y="79" key="Vcs.Push.Dialog.v2" timestamp="1576179633247">
+    <state x="233" y="79" key="Vcs.Push.Dialog.v2" timestamp="1576188133301">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1576179633247" />
+    <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1576188133301" />
     <state x="351" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1576179531181">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="351" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1576179531181" />
-    <state x="411" y="114" width="700" height="530" key="recent.locations.popup" timestamp="1576179738661">
+    <state x="411" y="114" width="700" height="530" key="recent.locations.popup" timestamp="1576188587080">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="411" y="114" width="700" height="530" key="recent.locations.popup/0.0.1280.689@0.0.1280.689" timestamp="1576179738661" />
+    <state x="411" y="114" width="700" height="530" key="recent.locations.popup/0.0.1280.689@0.0.1280.689" timestamp="1576188587080" />
     <state x="297" y="153" width="672" height="677" key="run.anything.popup" timestamp="1576138066492">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
