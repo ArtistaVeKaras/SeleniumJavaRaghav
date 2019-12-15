@@ -35,7 +35,7 @@ public class GoogleSearchPageObjTestNG {
     }
 
     @AfterTest
-    public void tearDwon(){
+    public void tearDown(){
         //driver.close();
         //driver.quit();
         System.out.println("Test Completed Succesful");
