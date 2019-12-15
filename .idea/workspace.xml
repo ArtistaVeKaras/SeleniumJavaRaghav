@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9595408a-a036-465c-b5b3-c21de1dbacb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumJavaGoogle/GoogleSearchPageObjTestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/googlePages/ExtendReportHtmlDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/googlePages/ExtendReportsWithTestNG.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumJavaGoogle/GoogleSearchPageObjTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumJavaGoogle/GoogleSearchPageObjTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/util/DriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/DriverUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumJavaGoogle/GoogleSearchPageObjTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumJavaGoogle/GoogleSearchPageObjTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/util/DriverUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/DriverUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="62" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="TestAutomateScondVersion" />
@@ -73,7 +74,21 @@
       <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GoogleSearchPageObjTestNG">
+  <component name="RunManager" selected="TestNG.ExtendReportsWithTestNG">
+    <configuration name="ExtendReportHtmlDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="googlePages.ExtendReportHtmlDemo" />
+      <module name="TestAutomate" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="googlePages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GoogleSearchPageObjTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seleniumJavaGoogle.GoogleSearchPageObjTest" />
       <module name="TestAutomate" />
@@ -108,47 +123,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Login to Amazon Webpage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/AmazonLogin.feature" />
-      <option name="GLUE" value="stepdef pages" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="TestAutomate" />
-      <option name="NAME_FILTER" value="^Login to Amazon Webpage$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login to Amazon Webpage$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login to Amazon Webpage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/VerifyLogin.feature" />
-      <option name="GLUE" value="stepdef" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="TestAutomate" />
-      <option name="NAME_FILTER" value="^Login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtendReportsWithTestNG" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="googlePages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="googlePages" />
+      <option name="MAIN_CLASS_NAME" value="googlePages.ExtendReportsWithTestNG" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,6 +177,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExtendReportsWithTestNG" />
+        <item itemvalue="Application.ExtendReportHtmlDemo" />
         <item itemvalue="TestNG.GoogleSearchPageObjTestNG" />
         <item itemvalue="Application.GoogleSearchPageObjTest" />
         <item itemvalue="Application.WebDriverManagers" />
@@ -226,10 +223,14 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="5" key="#Plugins" timestamp="1576191155655">
+    <state x="233" y="0" width="814" height="689" key="#Intentions" timestamp="1576426556590">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="5" key="#Plugins/0.0.1280.689@0.0.1280.689" timestamp="1576191155655" />
+    <state x="233" y="0" width="814" height="689" key="#Intentions/0.0.1280.689@0.0.1280.689" timestamp="1576426556590" />
+    <state x="233" y="5" key="#Plugins" timestamp="1576426555323">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="5" key="#Plugins/0.0.1280.689@0.0.1280.689" timestamp="1576426555323" />
     <state x="428" y="150" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576190346989">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -242,22 +243,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1576020191825" />
-    <state width="1281" height="269" key="GridCell.Tab.0.bottom" timestamp="1576192408009">
+    <state width="1281" height="269" key="GridCell.Tab.0.bottom" timestamp="1576448039281">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="269" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576192408009" />
-    <state width="1281" height="269" key="GridCell.Tab.0.center" timestamp="1576192408009">
+    <state width="1281" height="269" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576448039281" />
+    <state width="1281" height="269" key="GridCell.Tab.0.center" timestamp="1576448039281">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="269" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1576192408009" />
-    <state width="1281" height="269" key="GridCell.Tab.0.left" timestamp="1576192408008">
+    <state width="1281" height="269" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1576448039281" />
+    <state width="1281" height="269" key="GridCell.Tab.0.left" timestamp="1576448039280">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="269" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1576192408008" />
-    <state width="1281" height="269" key="GridCell.Tab.0.right" timestamp="1576192408009">
+    <state width="1281" height="269" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1576448039280" />
+    <state width="1281" height="269" key="GridCell.Tab.0.right" timestamp="1576448039281">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="269" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1576192408009" />
+    <state width="1281" height="269" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1576448039281" />
     <state x="157" y="0" key="SettingsEditor" timestamp="1576179560848">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -270,10 +271,14 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1576188133301" />
-    <state x="351" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1576192280209">
+    <state x="351" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1576447247628">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="351" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1576192280209" />
+    <state x="351" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1576447247628" />
+    <state x="230" y="22" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576422093856">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="230" y="22" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.689@0.0.1280.689" timestamp="1576422093856" />
     <state x="224" y="63" width="832" height="626" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1576192125373">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -286,10 +291,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="355" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.689@0.0.1280.689" timestamp="1576189276380" />
-    <state x="297" y="153" width="672" height="677" key="run.anything.popup" timestamp="1576138066492">
+    <state x="297" y="153" width="672" height="677" key="run.anything.popup" timestamp="1576424842218">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="297" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1576138066492" />
+    <state x="297" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1576424842218" />
     <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1576191126833">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
