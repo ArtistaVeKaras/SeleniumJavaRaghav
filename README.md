@@ -31,3 +31,9 @@ This lecturer covers how to add test annotations!
 [Chrome Capabilities]
  
  (https://sites.google.com/a/chromium.org/chromedriver/capabilities)
+ 
+ [Log4jDemo]
+ 
+ (https://logging.apache.org/log4j/2.x/download.html)
+ 
+ (https://www.youtube.com/watch?v=rbuR9Q_55h4&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa&index=16)

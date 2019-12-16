@@ -1,0 +1,5 @@
+[DEBUG] 2019-12-16 13:49:22.203 [main] Log4jDemo - This is a debug message
+[INFO ] 2019-12-16 13:49:22.209 [main] Log4jDemo - This is an info message
+[WARN ] 2019-12-16 13:49:22.209 [main] Log4jDemo - This is a warn message
+[ERROR] 2019-12-16 13:49:22.209 [main] Log4jDemo - This is an error message
+[FATAL] 2019-12-16 13:49:22.209 [main] Log4jDemo - This is a fatal message

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9595408a-a036-465c-b5b3-c21de1dbacb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/TestNg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demo/Log4jDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,20 +62,22 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\resources" />
+      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java" />
+      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\resources1" />
+      <recent name="$PROJECT_DIR$/src/test/java/util" />
+      <recent name="$PROJECT_DIR$/src/test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="seleniumJavaGoogle" />
       <recent name="stepdef" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java" />
-      <recent name="$PROJECT_DIR$/src/test/java/util" />
-      <recent name="$PROJECT_DIR$/src/test" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/claud/AutomationProjects/inteljProject/TestNg.xml">
+  <component name="RunManager" selected="Application.Log4jDemo">
     <configuration name="ChromeDesiredCapabilities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="googlePages.ChromeDesiredCapabilities" />
       <module name="TestAutomate" />
@@ -81,6 +85,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="googlePages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Log4jDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Log4jDemo" />
+      <module name="TestAutomate" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,24 +123,6 @@
       <module name="TestAutomate" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNg.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExtendReportsWithTestNG (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="googlePages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="googlePages" />
-      <option name="MAIN_CLASS_NAME" value="googlePages.ExtendReportsWithTestNG" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -231,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Log4jDemo" />
         <item itemvalue="TestNG.C:/Users/claud/AutomationProjects/inteljProject/TestNg.xml" />
         <item itemvalue="Application.ChromeDesiredCapabilities" />
         <item itemvalue="TestNG.ExtendReportsWithTestNG" />
         <item itemvalue="TestNG.ExtendReportsWithTestNG (4)" />
-        <item itemvalue="TestNG.ExtendReportsWithTestNG (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -285,6 +285,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="0" width="814" height="689" key="#Intentions/0.0.1280.689@0.0.1280.689" timestamp="1576426556590" />
+    <state x="233" y="5" key="#Log_Highlighting_(ideolog)" timestamp="1576504182605">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="5" key="#Log_Highlighting_(ideolog)/0.0.1280.689@0.0.1280.689" timestamp="1576504182605" />
     <state x="233" y="5" key="#Plugins" timestamp="1576426555323">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -301,22 +305,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1576020191825" />
-    <state width="1281" height="392" key="GridCell.Tab.0.bottom" timestamp="1576498574578">
+    <state width="1281" height="156" key="GridCell.Tab.0.bottom" timestamp="1576504160736">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="392" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576498574578" />
-    <state width="1281" height="392" key="GridCell.Tab.0.center" timestamp="1576498574578">
+    <state width="1281" height="156" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576504160736" />
+    <state width="1281" height="156" key="GridCell.Tab.0.center" timestamp="1576504160736">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="392" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1576498574578" />
-    <state width="1281" height="392" key="GridCell.Tab.0.left" timestamp="1576498574577">
+    <state width="1281" height="156" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1576504160736" />
+    <state width="1281" height="156" key="GridCell.Tab.0.left" timestamp="1576504160736">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="392" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1576498574577" />
-    <state width="1281" height="392" key="GridCell.Tab.0.right" timestamp="1576498574578">
+    <state width="1281" height="156" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1576504160736" />
+    <state width="1281" height="156" key="GridCell.Tab.0.right" timestamp="1576504160736">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="392" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1576498574578" />
+    <state width="1281" height="156" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1576504160736" />
     <state x="157" y="0" key="SettingsEditor" timestamp="1576179560848">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -349,14 +353,14 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="355" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.689@0.0.1280.689" timestamp="1576189276380" />
-    <state x="297" y="153" width="672" height="677" key="run.anything.popup" timestamp="1576449815516">
+    <state x="297" y="153" width="672" height="677" key="run.anything.popup" timestamp="1576501719277">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="297" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1576449815516" />
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1576498591218">
+    <state x="297" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1576501719277" />
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1576502925304">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1576498591218" />
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1576502925304" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/inteljProject$GoogleSearchPageObjTestNG.ic" NAME="GoogleSearchPageObjTestNG Coverage Results" MODIFIED="1576192407950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
