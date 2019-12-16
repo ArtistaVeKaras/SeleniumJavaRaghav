@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9595408a-a036-465c-b5b3-c21de1dbacb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/PropertiesFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -75,14 +77,14 @@
       <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PropertiesFile">
-    <configuration name="ChromeDesiredCapabilities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="googlePages.ChromeDesiredCapabilities" />
+  <component name="RunManager" selected="Application.ExcelUtils">
+    <configuration name="ExcelUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utilities.ExcelUtils" />
       <module name="TestAutomate" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="googlePages.*" />
+          <option name="PATTERN" value="utilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExcelUtils" />
         <item itemvalue="Application.PropertiesFile" />
         <item itemvalue="Application.ExceptionHandlingDemo" />
         <item itemvalue="Application.Log4jDemo" />
         <item itemvalue="TestNG.C:/Users/claud/AutomationProjects/inteljProject/TestNg.xml" />
-        <item itemvalue="Application.ChromeDesiredCapabilities" />
       </list>
     </recent_temporary>
   </component>
@@ -295,22 +297,26 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1576020191825" />
-    <state width="1281" height="56" key="GridCell.Tab.0.bottom" timestamp="1576516833418">
+    <state x="421" y="88" key="FileChooserDialogImpl" timestamp="1576520492790">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="56" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576516833418" />
-    <state width="1281" height="56" key="GridCell.Tab.0.center" timestamp="1576516833418">
+    <state x="421" y="88" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1576520492790" />
+    <state width="1281" height="138" key="GridCell.Tab.0.bottom" timestamp="1576520866330">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="56" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1576516833418" />
-    <state width="1281" height="56" key="GridCell.Tab.0.left" timestamp="1576516833418">
+    <state width="1281" height="138" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576520866330" />
+    <state width="1281" height="138" key="GridCell.Tab.0.center" timestamp="1576520866329">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="56" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1576516833418" />
-    <state width="1281" height="56" key="GridCell.Tab.0.right" timestamp="1576516833418">
+    <state width="1281" height="138" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1576520866329" />
+    <state width="1281" height="138" key="GridCell.Tab.0.left" timestamp="1576520866329">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="56" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1576516833418" />
+    <state width="1281" height="138" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1576520866329" />
+    <state width="1281" height="138" key="GridCell.Tab.0.right" timestamp="1576520866330">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1281" height="138" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1576520866330" />
     <state x="157" y="0" key="SettingsEditor" timestamp="1576179560848">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -351,6 +357,20 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1576505689414" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/config/PropertiesFile.java</url>
+          <line>44</line>
+          <properties class="config.PropertiesFile" method="getProperties">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/inteljProject$GoogleSearchPageObjTestNG.ic" NAME="GoogleSearchPageObjTestNG Coverage Results" MODIFIED="1576192407950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

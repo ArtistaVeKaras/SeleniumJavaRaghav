@@ -38,3 +38,10 @@ This lecturer covers how to add test annotations!
  (https://logging.apache.org/log4j/2.x/download.html)
  
  (https://www.youtube.com/watch?v=rbuR9Q_55h4&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa&index=16)
+ 
+ ##Extract data from Exel File
+ [Excel File]
+ 
+ (https://www.youtube.com/watch?v=CV3SOorFydE&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa&index=20)
+ 
+ (https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml)
