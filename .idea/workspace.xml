@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9595408a-a036-465c-b5b3-c21de1dbacb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/demo/ExceptionHandlingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/config/PropertiesFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/config/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/demo/Log4jDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/demo/Log4jDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExceptionHandlingDemo">
+  <component name="RunManager" selected="Application.PropertiesFile">
     <configuration name="ChromeDesiredCapabilities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="googlePages.ChromeDesiredCapabilities" />
       <module name="TestAutomate" />
@@ -112,6 +111,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropertiesFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="config.PropertiesFile" />
+      <module name="TestAutomate" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,24 +210,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtendReportsWithTestNG" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="googlePages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="googlePages" />
-      <option name="MAIN_CLASS_NAME" value="googlePages.ExtendReportsWithTestNG" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -226,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PropertiesFile" />
         <item itemvalue="Application.ExceptionHandlingDemo" />
         <item itemvalue="Application.Log4jDemo" />
         <item itemvalue="TestNG.C:/Users/claud/AutomationProjects/inteljProject/TestNg.xml" />
         <item itemvalue="Application.ChromeDesiredCapabilities" />
-        <item itemvalue="TestNG.ExtendReportsWithTestNG" />
       </list>
     </recent_temporary>
   </component>
@@ -300,22 +295,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1576020191825" />
-    <state width="1281" height="246" key="GridCell.Tab.0.bottom" timestamp="1576506420451">
+    <state width="1281" height="56" key="GridCell.Tab.0.bottom" timestamp="1576516833418">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="246" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576506420451" />
-    <state width="1281" height="246" key="GridCell.Tab.0.center" timestamp="1576506420451">
+    <state width="1281" height="56" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576516833418" />
+    <state width="1281" height="56" key="GridCell.Tab.0.center" timestamp="1576516833418">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="246" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1576506420451" />
-    <state width="1281" height="246" key="GridCell.Tab.0.left" timestamp="1576506420451">
+    <state width="1281" height="56" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1576516833418" />
+    <state width="1281" height="56" key="GridCell.Tab.0.left" timestamp="1576516833418">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="246" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1576506420451" />
-    <state width="1281" height="246" key="GridCell.Tab.0.right" timestamp="1576506420451">
+    <state width="1281" height="56" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1576516833418" />
+    <state width="1281" height="56" key="GridCell.Tab.0.right" timestamp="1576516833418">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="246" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1576506420451" />
+    <state width="1281" height="56" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1576516833418" />
     <state x="157" y="0" key="SettingsEditor" timestamp="1576179560848">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
