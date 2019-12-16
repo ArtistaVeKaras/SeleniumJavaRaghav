@@ -6,10 +6,26 @@ This project is a combination of Selenium Cucumber with Selenium and Java from y
 The WebDriverManager class is the a side project I decide to do for fun and practice!!
 ##
 
-#TestNG
-[Link to TestNg Tutorial] (https://www.youtube.com/watch?v=eF_Vb-d4kIo&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa&index=12)
+##TestNG
 This lecturer covers how to add test annotations!
-#Extends reports Links
-[Extend Reports] (http://extentreports.com/docs/versions/4/java/)
-[Extend Reports Doc] (http://extentreports.com/docs/versions/3/java/#pro-vs-community)
+[Link to TestNg Tutorial] 
+(https://www.youtube.com/watch?v=eF_Vb-d4kIo&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa&index=12)
 
+
+##Extends reports Links
+[Extend Reports] 
+
+(http://extentreports.com/docs/versions/4/java/)
+
+[Extend Reports Doc]
+ 
+(http://extentreports.com/docs/versions/3/java/#pro-vs-community)
+
+##Desired Capabilities
+[youTube Tutorial] 
+
+(https://sites.google.com/a/chromium.org/chromedriver/capabilities)
+
+[Chrome Capabilities]
+ 
+ (https://sites.google.com/a/chromium.org/chromedriver/capabilities)
