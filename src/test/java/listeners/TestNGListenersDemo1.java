@@ -11,7 +11,8 @@ public class TestNGListenersDemo1 {
 
     @Test
     public void test4(){
-      System.out.print("I am inside test one");
+
+        System.out.print("I am inside test one");
     }
     @Test
     public void test5() {

@@ -41,3 +41,9 @@ This lecturer covers how to add test annotations!
  [TestNG Listeners YouTube Tutorial](https://www.youtube.com/watch?v=WAyMslXOkLM&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa&index=22)
  
  [Link to Google!](https://google.com)
+ 
+ ##TestNgParallelTesting
+ 
+ [Parallel Testing Link](https://www.youtube.com/watch?v=WZfh6v53leA&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa&index=24)
+ 
+ 
