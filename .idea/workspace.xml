@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9595408a-a036-465c-b5b3-c21de1dbacb1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,10 +340,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1576188133301" />
-    <state x="351" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1576565562738">
+    <state x="351" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1576566228628">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="351" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1576565562738" />
+    <state x="351" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1576566228628" />
     <state x="230" y="22" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576422093856">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
