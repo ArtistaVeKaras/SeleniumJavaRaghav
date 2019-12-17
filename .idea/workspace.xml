@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9595408a-a036-465c-b5b3-c21de1dbacb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/TestNgListeners.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/listeners/TestNGListeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/listeners/TestNGListenersDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/listeners/TestNGListenersDemo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ExcelUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ExcelUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,10 +285,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="5" key="#Log_Highlighting_(ideolog)/0.0.1280.689@0.0.1280.689" timestamp="1576504182605" />
-    <state x="233" y="5" key="#Plugins" timestamp="1576426555323">
+    <state x="233" y="5" key="#Plugins" timestamp="1576566205595">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="5" key="#Plugins/0.0.1280.689@0.0.1280.689" timestamp="1576426555323" />
+    <state x="233" y="5" key="#Plugins/0.0.1280.689@0.0.1280.689" timestamp="1576566205595" />
     <state x="379" y="0" width="536" height="689" key="#TestNGListenersDemo.test2" timestamp="1576531630523">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -346,10 +341,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1576188133301" />
-    <state x="351" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1576528145634">
+    <state x="351" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1576565562738">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="351" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1576528145634" />
+    <state x="351" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1576565562738" />
     <state x="230" y="22" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576422093856">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -370,10 +365,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="297" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1576532648935" />
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1576533876144">
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1576566090410">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1576533876144" />
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1576566090410" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
