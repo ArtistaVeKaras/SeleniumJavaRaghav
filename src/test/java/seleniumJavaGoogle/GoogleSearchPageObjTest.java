@@ -1,6 +1,9 @@
 package seleniumJavaGoogle;
 
 import googlePages.GoogleSearchPageObject;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -10,6 +13,7 @@ public class GoogleSearchPageObjTest {
     public static void main(String[] args) {
        searchGoogleTest();
     }
+
     public static void searchGoogleTest(){
         setUp();
         GoogleSearchPageObject searchPageObj = new GoogleSearchPageObject(driver);
@@ -23,9 +27,12 @@ public class GoogleSearchPageObjTest {
     //by removing all those lines of code
     public static void setUp(){
 
-        String projectPath = System.getProperty("user.dir");
-        System.out.println("ProjectPath : "+ projectPath);
-        System.setProperty("webdriver.gecko.driver", projectPath+"\\src\\test\\java\\util\\drivers\\geckodriver.exe");
+        WebDriverManager.firefoxdriver().setup();
         driver = new FirefoxDriver();
+        driver.get("https://google.com");
+        driver.findElement(By.name("q")).sendKeys("dogs and cats");
+        driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[3]/center/input[1]")).sendKeys(Keys.RETURN);
+        //driver.close();
     }
+
 }

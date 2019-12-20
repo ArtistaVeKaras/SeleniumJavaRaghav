@@ -55,3 +55,8 @@ This lecturer covers how to add test annotations!
 ##TestNGGroupDependencies
 
 [GroupDependencies](https://www.youtube.com/watch?v=jxZEYBOGxuM&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa&index=27)
+
+
+##Selenium Implicit Wait 
+
+[Implicit Wait Tutorial](https://www.youtube.com/watch?v=UN8cauyoZsk&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa&index=31)
