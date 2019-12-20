@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9595408a-a036-465c-b5b3-c21de1dbacb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/demo1/TestNGIgnoreDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demo1/TestNgRerunTestDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/demo1/TestNGDependenciesDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/demo1/TestNGDependenciesDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,7 @@
       <command value="git" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestNGIgnoreDemo">
+  <component name="RunManager" selected="TestNG.TestNgRerunTestDemo.test3">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -101,17 +100,6 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/claud/AutomationProjects/inteljProject/TestNgGroups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomate" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNgGroups.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -190,6 +178,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestNgRerunTestDemo.test3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo1" />
+      <option name="MAIN_CLASS_NAME" value="demo1.TestNgRerunTestDemo" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -201,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestNgRerunTestDemo.test3" />
         <item itemvalue="TestNG.TestNGIgnoreDemo" />
         <item itemvalue="TestNG.TestNGIgnoreDemo.test2" />
         <item itemvalue="TestNG.TestNGDependenciesDemo.sanityGroup" />
         <item itemvalue="TestNG.TestNGDependenciesDemo" />
-        <item itemvalue="TestNG.C:/Users/claud/AutomationProjects/inteljProject/TestNgGroups.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -287,22 +294,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="88" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1576520492790" />
-    <state width="1281" height="219" key="GridCell.Tab.0.bottom" timestamp="1576842440106">
+    <state width="1281" height="218" key="GridCell.Tab.0.bottom" timestamp="1576843686398">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="219" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576842440106" />
-    <state width="1281" height="219" key="GridCell.Tab.0.center" timestamp="1576842440105">
+    <state width="1281" height="218" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576843686398" />
+    <state width="1281" height="218" key="GridCell.Tab.0.center" timestamp="1576843686397">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="219" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1576842440105" />
-    <state width="1281" height="219" key="GridCell.Tab.0.left" timestamp="1576842440105">
+    <state width="1281" height="218" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1576843686397" />
+    <state width="1281" height="218" key="GridCell.Tab.0.left" timestamp="1576843686397">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="219" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1576842440105" />
-    <state width="1281" height="219" key="GridCell.Tab.0.right" timestamp="1576842440105">
+    <state width="1281" height="218" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1576843686397" />
+    <state width="1281" height="218" key="GridCell.Tab.0.right" timestamp="1576843686398">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="219" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1576842440105" />
+    <state width="1281" height="218" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1576843686398" />
     <state x="157" y="0" key="SettingsEditor" timestamp="1576179560848">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -339,10 +346,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="297" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1576839387813" />
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1576841873023">
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1576843868829">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1576841873023" />
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1576843868829" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -370,6 +377,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/inteljProject$TestNGListenersDemo_test2.ic" NAME="TestNGListenersDemo.test2 Coverage Results" MODIFIED="1576531670941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>listeners.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/inteljProject$TestNgRerunTestDemo_test3.ic" NAME="TestNgRerunTestDemo.test3 Coverage Results" MODIFIED="1576843686356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>demo1.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/inteljProject$C__Users_claud_AutomationProjects_inteljProject_TestNgParallel_xml.ic" NAME="$PROJECT_DIR$/TestNgParallel.xml Coverage Results" MODIFIED="1576604724291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/inteljProject$C__Users_claud_AutomationProjects_inteljProject_TestNgGroups_xml.ic" NAME="$PROJECT_DIR$/TestNgGroups.xml Coverage Results" MODIFIED="1576837532337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
