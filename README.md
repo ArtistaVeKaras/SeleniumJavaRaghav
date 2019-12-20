@@ -46,4 +46,7 @@ This lecturer covers how to add test annotations!
  
  [Parallel Testing Link](https://www.youtube.com/watch?v=WZfh6v53leA&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa&index=24)
  
- 
+
+##TestNGGroups
+
+[TesNG_Groups Tutorial](https://www.youtube.com/watch?v=E8VCw2CPUv4&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa&index=25)
