@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9595408a-a036-465c-b5b3-c21de1dbacb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/TestNgGroups.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/demo1/TestNGGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNgDependencies.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demo1/TestNGDependenciesDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +68,16 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\claud\AutomationProjects\inteljProject" />
+      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers\chrome73" />
+      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="listeners" />
+      <recent name="seleniumJavaGoogle" />
+      <recent name="stepdef" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\resources" />
       <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java" />
@@ -76,23 +85,13 @@
       <recent name="$PROJECT_DIR$/src/test/java/util" />
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="listeners" />
-      <recent name="seleniumJavaGoogle" />
-      <recent name="stepdef" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\claud\AutomationProjects\inteljProject" />
-      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers\chrome73" />
-      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers" />
-    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="git" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/claud/AutomationProjects/inteljProject/TestNgGroups.xml">
+  <component name="RunManager" selected="TestNG.TestNGDependenciesDemo.sanityGroup">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -128,25 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtendReportsWithTestNG" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="googlePages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="googlePages" />
-      <option name="MAIN_CLASS_NAME" value="googlePages.ExtendReportsWithTestNG" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNGParallelTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGDependenciesDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutomate" />
       <extension name="coverage">
         <pattern>
@@ -155,7 +136,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="demo1" />
-      <option name="MAIN_CLASS_NAME" value="demo1.TestNGParallelTest" />
+      <option name="MAIN_CLASS_NAME" value="demo1.TestNGDependenciesDemo" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -164,7 +145,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGParallelTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGDependenciesDemo.sanityGroup" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutomate" />
       <extension name="coverage">
         <pattern>
@@ -173,8 +154,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="demo1" />
-      <option name="MAIN_CLASS_NAME" value="demo1.TestNGParallelTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="demo1.TestNGDependenciesDemo" />
+      <option name="METHOD_NAME" value="sanityGroup" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -212,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestNGDependenciesDemo.sanityGroup" />
+        <item itemvalue="TestNG.TestNGDependenciesDemo" />
         <item itemvalue="TestNG.C:/Users/claud/AutomationProjects/inteljProject/TestNgGroups.xml" />
         <item itemvalue="TestNG.C:/Users/claud/AutomationProjects/inteljProject/TestNgParallel.xml" />
         <item itemvalue="TestNG.TestNGParallelTest.test" />
-        <item itemvalue="TestNG.TestNGParallelTest (2)" />
-        <item itemvalue="TestNG.TestNGParallelTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -298,22 +280,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="88" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1576520492790" />
-    <state width="1281" height="219" key="GridCell.Tab.0.bottom" timestamp="1576839374211">
+    <state width="1281" height="219" key="GridCell.Tab.0.bottom" timestamp="1576841709743">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="219" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576839374211" />
-    <state width="1281" height="219" key="GridCell.Tab.0.center" timestamp="1576839374210">
+    <state width="1281" height="219" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576841709743" />
+    <state width="1281" height="219" key="GridCell.Tab.0.center" timestamp="1576841709743">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="219" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1576839374210" />
-    <state width="1281" height="219" key="GridCell.Tab.0.left" timestamp="1576839374210">
+    <state width="1281" height="219" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1576841709743" />
+    <state width="1281" height="219" key="GridCell.Tab.0.left" timestamp="1576841709743">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="219" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1576839374210" />
-    <state width="1281" height="219" key="GridCell.Tab.0.right" timestamp="1576839374211">
+    <state width="1281" height="219" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1576841709743" />
+    <state width="1281" height="219" key="GridCell.Tab.0.right" timestamp="1576841709743">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="219" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1576839374211" />
+    <state width="1281" height="219" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1576841709743" />
     <state x="157" y="0" key="SettingsEditor" timestamp="1576179560848">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -350,10 +332,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="297" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1576839387813" />
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1576606443470">
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1576841873023">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1576606443470" />
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1576841873023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

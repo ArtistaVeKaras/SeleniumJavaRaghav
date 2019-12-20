@@ -50,3 +50,8 @@ This lecturer covers how to add test annotations!
 ##TestNGGroups
 
 [TesNG_Groups Tutorial](https://www.youtube.com/watch?v=E8VCw2CPUv4&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa&index=25)
+
+
+##TestNGGroupDependencies
+
+[GroupDependencies](https://www.youtube.com/watch?v=jxZEYBOGxuM&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa&index=27)
