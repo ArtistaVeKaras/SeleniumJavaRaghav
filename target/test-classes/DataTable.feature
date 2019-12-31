@@ -3,6 +3,8 @@ Feature: As a user I want to be able to login
   am on the home pagemy username and password and confirm
   am on the home page
 
+  # This is just another way of passing arguments via data table!!
+  # Without having to add to many lines of code
   @TestCompleted
   Scenario: Login DataTable Examples
     Given am on the landing Page

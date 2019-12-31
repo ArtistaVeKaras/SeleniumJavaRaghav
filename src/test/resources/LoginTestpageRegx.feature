@@ -1,6 +1,6 @@
 Feature: as a user I want to able to log in
 
-
+# using the regEx to pass data 
 @TestCompleted
   Scenario: Login
     Given am on the login page

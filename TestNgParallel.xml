@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" parallel="tests" thread-count="3">
+
+<!--Run test on multiple browsers When running the test always run it with the xml file -->
+    <test name="RunOnFirefox">
+        <parameter name="browserName" value="firefox"></parameter>
+        <classes>
+            <class name="demo1.TestNGParallelTest"/>
+        </classes>
+    </test>
+
+    <test name="RunOnChrome">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="demo1.TestNGParallelTest"/>
+        </classes>
+    </test>
+
+    <test name="RunOnIE">
+        <parameter name="browserName" value="IE"></parameter>
+        <classes>
+            <class name="demo1.TestNGParallelTest"/>
+        </classes>
+    </test>
+
+</suite>

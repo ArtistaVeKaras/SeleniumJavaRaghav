@@ -1,0 +1,13 @@
+<!-- My test listeners are not working need to figure out why this is not working!! -->
+<suite name="Suite1">
+    <listeners>
+        <listener class="listeners.TestNGListeners.class">
+        </listener>
+    </listeners>
+    <test thread-count="5" name="Test1">
+        <classes>
+            <class name="listeners.TestNGListenersDemo"/>
+            <class name="listeners.TestNGListenersDemo1"/>
+        </classes>
+    </test>
+</suite>

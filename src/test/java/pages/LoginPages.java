@@ -1,21 +1,20 @@
 package pages;
-
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import util.DriverUtil;
-
 import java.util.concurrent.TimeUnit;
 
 public class LoginPages extends DriverUtil {
-
   //declaring the global variables by using the By class from Selenium
   public static By UsernameTextField = By.id("usernamelogin");
   public static By PasswordTextField = By.id("loginPassword");
   public static By LoginButton = By.id("LoginBtn");
-  String BaseUrl = "http://test001-automatetillinfinity.co.uk/"; // instantiate the variable
+  String BaseUrl = "http://test001-automatetillinfinity.co.uk/";
 
-    public void launchurl() throws InterruptedException { //creating a method to launch the url
+    //creating a method to launch the url
+    public void launchurl() throws InterruptedException {
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        driver.manage().window().maximize();
         driver.get(BaseUrl);
     }
 
@@ -30,8 +29,7 @@ public class LoginPages extends DriverUtil {
     public void passwordRegx(String testdata)    {
         driver.findElement(PasswordTextField).sendKeys(testdata);  }
 
-    public void loginbtn()
-    {
+    public void loginbtn()    {
         driver.findElement(LoginButton).click();
     }
 

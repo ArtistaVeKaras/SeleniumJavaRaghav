@@ -1,0 +1,13 @@
+
+<suite name="Suite1">
+
+    <test name="Test1">
+
+        <parameter name="MyName" value="Automation"></parameter>
+
+
+        <classes>
+            <class name="demo1.TestNGDependenciesDemo"/>
+        </classes>
+    </test>
+</suite>
