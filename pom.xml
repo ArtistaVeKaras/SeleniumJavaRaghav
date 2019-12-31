@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
+<project xmlns="http://maven.apache.org/POM/2.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -97,6 +97,25 @@
             <artifactId>poi-ooxml</artifactId>
             <version>4.1.1</version>
         </dependency>
+
+        <!--https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html-->
+        <!--Atm only this file works i need to investigate why the other ones do not work!!-->
+        <!--hardcode the testfile as variable so we can use in the command line example mvn clean test -Dtestfile=TestNgGroups.xml-->
+        <buid>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>3.0.0-M4</version>
+                    <configuration>
+                        <suiteXmlFiles>
+                            <suiteXmlFile>${testfile}</suiteXmlFile>
+                        </suiteXmlFiles>
+                    </configuration>
+                </plugin>
+            </plugins>
+
+        </buid>
 
 
     </dependencies>

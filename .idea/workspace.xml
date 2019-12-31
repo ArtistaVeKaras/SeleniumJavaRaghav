@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9595408a-a036-465c-b5b3-c21de1dbacb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/demo1/HeadlessChromeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/util/drivers/chrome73/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chrome73/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chrome73/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/drivers/chrome73/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo1/HeadlessChromeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/demo1/HeadlessChromeDemo.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumJavaGoogle/SeleniumWaitDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumJavaGoogle/SeleniumWaitDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +32,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sele</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,7 +66,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/admin/Intelj Idea/TestAutomateScondVersion/src/test/java/pages/LoginPages.java" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576018902458" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/chrome73" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -66,9 +74,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\chrome73" />
-      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers\chrome73" />
       <recent name="C:\Users\claud\AutomationProjects\inteljProject" />
+      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers\chrome73" />
       <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -77,11 +84,11 @@
       <recent name="stepdef" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers" />
       <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\resources" />
       <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java" />
       <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\resources1" />
       <recent name="$PROJECT_DIR$/src/test/java/util" />
+      <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -89,7 +96,35 @@
       <command value="git" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HeadlessChromeDemo.test">
+  <component name="RunManager" selected="TestNG.SeleniumWaitDemo.SeleniumDemo">
+    <configuration name="GoogleSearchPageObjTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seleniumJavaGoogle.GoogleSearchPageObjTest" />
+      <module name="TestAutomate" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumJavaGoogle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumWaitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seleniumJavaGoogle.SeleniumWaitDemo" />
+      <module name="TestAutomate" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumJavaGoogle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -99,81 +134,6 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeadlessChromeDemo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo1" />
-      <option name="MAIN_CLASS_NAME" value="demo1.HeadlessChromeDemo" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeadlessChromeDemo.test (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo1" />
-      <option name="MAIN_CLASS_NAME" value="demo1.HeadlessChromeDemo" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeadlessChromeDemo.test (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo1" />
-      <option name="MAIN_CLASS_NAME" value="demo1.HeadlessChromeDemo" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeadlessChromeDemo.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo1" />
-      <option name="MAIN_CLASS_NAME" value="demo1.HeadlessChromeDemo" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,6 +157,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestNGIgnoreDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo1" />
+      <option name="MAIN_CLASS_NAME" value="demo1.TestNGIgnoreDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNgRerunTestDemo.test3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo1" />
+      <option name="MAIN_CLASS_NAME" value="demo1.TestNgRerunTestDemo" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -208,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HeadlessChromeDemo.test" />
-        <item itemvalue="TestNG.HeadlessChromeDemo.test (2)" />
-        <item itemvalue="TestNG.HeadlessChromeDemo.test (1)" />
-        <item itemvalue="TestNG.HeadlessChromeDemo" />
         <item itemvalue="TestNG.SeleniumWaitDemo.SeleniumDemo" />
+        <item itemvalue="Application.SeleniumWaitDemo" />
+        <item itemvalue="Application.GoogleSearchPageObjTest" />
+        <item itemvalue="TestNG.TestNgRerunTestDemo.test3" />
+        <item itemvalue="TestNG.TestNGIgnoreDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -290,30 +287,26 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1576020191825" />
-    <state x="319" y="0" key="CommitChangelistDialog2" timestamp="1576849912215">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="319" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1576849912215" />
     <state x="421" y="88" key="FileChooserDialogImpl" timestamp="1576520492790">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="88" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1576520492790" />
-    <state width="1281" height="128" key="GridCell.Tab.0.bottom" timestamp="1576857315246">
+    <state width="1281" height="354" key="GridCell.Tab.0.bottom" timestamp="1576849862389">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="128" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576857315246" />
-    <state width="1281" height="128" key="GridCell.Tab.0.center" timestamp="1576857315245">
+    <state width="1281" height="354" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1576849862389" />
+    <state width="1281" height="354" key="GridCell.Tab.0.center" timestamp="1576849862389">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="128" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1576857315245" />
-    <state width="1281" height="128" key="GridCell.Tab.0.left" timestamp="1576857315245">
+    <state width="1281" height="354" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1576849862389" />
+    <state width="1281" height="354" key="GridCell.Tab.0.left" timestamp="1576849862389">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="128" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1576857315245" />
-    <state width="1281" height="128" key="GridCell.Tab.0.right" timestamp="1576857315246">
+    <state width="1281" height="354" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1576849862389" />
+    <state width="1281" height="354" key="GridCell.Tab.0.right" timestamp="1576849862389">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1281" height="128" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1576857315246" />
+    <state width="1281" height="354" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1576849862389" />
     <state x="171" y="1" key="Maven.ArtifactSearchDialog" timestamp="1576848886699">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -342,10 +335,6 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="224" y="63" width="832" height="626" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.689@0.0.1280.689" timestamp="1576192125373" />
-    <state x="345" y="98" width="590" height="494" key="find.popup" timestamp="1576856139190">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="345" y="98" width="590" height="494" key="find.popup/0.0.1280.689@0.0.1280.689" timestamp="1576856139190" />
     <state x="411" y="114" width="700" height="530" key="recent.locations.popup" timestamp="1576600018362">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -358,10 +347,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="297" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1576839387813" />
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1576856318402">
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1576843868829">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1576856318402" />
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1576843868829" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -373,14 +362,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/seleniumJavaGoogle/SeleniumWaitDemo.java</url>
-          <line>42</line>
-          <properties class="seleniumJavaGoogle.SeleniumWaitDemo" method="SeleniumDemo">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
