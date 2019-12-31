@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9595408a-a036-465c-b5b3-c21de1dbacb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/chrome73/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/drivers/chrome73/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo1/HeadlessChromeDemo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/demo1/HeadlessChromeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumJavaGoogle/SeleniumWaitDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumJavaGoogle/SeleniumWaitDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -65,3 +65,8 @@ This lecturer covers how to add test annotations!
 ##TestNG Maven Tutorial
 
 [https://www.youtube.com/watch?v=lQCyVy-g1e8&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa&index=40]()
+
+
+##Creat Xpath Tutorial
+
+[Selenium how to create xpath](https://www.youtube.com/watch?v=W9_q7tZon2M&list=PLhW3qG5bs-L8oRay6qeS70vJYZ3SBQnFa&index=44)
