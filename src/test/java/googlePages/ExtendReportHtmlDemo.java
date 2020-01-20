@@ -28,7 +28,7 @@ public class ExtendReportHtmlDemo {
         // creating an object or using the extend class would be much cleaner for the code
         String projectPath = System.getProperty("user.dir");
         System.out.println("ProjectPath : "+ projectPath);
-        System.setProperty("webdriver.gecko.driver", projectPath+"\\src\\test\\java\\util\\drivers\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", projectPath+"/src/test/java/util/drivers/geckodriver.exe");
         driver = new FirefoxDriver();
 
         //Using the test log object to log the test reports

@@ -3,3 +3,28 @@
 [WARN ] 2019-12-16 13:49:22.209 [main] Log4jDemo - This is a warn message
 [ERROR] 2019-12-16 13:49:22.209 [main] Log4jDemo - This is an error message
 [FATAL] 2019-12-16 13:49:22.209 [main] Log4jDemo - This is a fatal message
+[DEBUG] 2020-01-14 21:40:36.582 [main] Log4jDemo - This is a debug message
+[INFO ] 2020-01-14 21:40:36.586 [main] Log4jDemo - This is an info message
+[WARN ] 2020-01-14 21:40:36.586 [main] Log4jDemo - This is a warn message
+[ERROR] 2020-01-14 21:40:36.586 [main] Log4jDemo - This is an error message
+[FATAL] 2020-01-14 21:40:36.586 [main] Log4jDemo - This is a fatal message
+[DEBUG] 2020-01-14 21:40:53.169 [main] Log4jDemo - This is a debug message
+[INFO ] 2020-01-14 21:40:53.173 [main] Log4jDemo - This is an info message
+[WARN ] 2020-01-14 21:40:53.173 [main] Log4jDemo - This is a warn message
+[ERROR] 2020-01-14 21:40:53.173 [main] Log4jDemo - This is an error message
+[FATAL] 2020-01-14 21:40:53.173 [main] Log4jDemo - This is a fatal message
+[DEBUG] 2020-01-14 21:41:11.834 [main] Log4jDemo - This is a debug message
+[INFO ] 2020-01-14 21:41:11.837 [main] Log4jDemo - This is an info message
+[WARN ] 2020-01-14 21:41:11.838 [main] Log4jDemo - This is a warn message
+[ERROR] 2020-01-14 21:41:11.838 [main] Log4jDemo - This is an error message
+[FATAL] 2020-01-14 21:41:11.838 [main] Log4jDemo - This is a fatal message
+[DEBUG] 2020-01-14 21:41:30.007 [main] Log4jDemo - This is a debug message
+[INFO ] 2020-01-14 21:41:30.011 [main] Log4jDemo - This is an info message
+[WARN ] 2020-01-14 21:41:30.011 [main] Log4jDemo - This is a warn message
+[ERROR] 2020-01-14 21:41:30.011 [main] Log4jDemo - This is an error message
+[FATAL] 2020-01-14 21:41:30.011 [main] Log4jDemo - This is a fatal message
+[DEBUG] 2020-01-14 22:01:10.428 [main] Log4jDemo - This is a debug message
+[INFO ] 2020-01-14 22:01:10.433 [main] Log4jDemo - This is an info message
+[WARN ] 2020-01-14 22:01:10.433 [main] Log4jDemo - This is a warn message
+[ERROR] 2020-01-14 22:01:10.433 [main] Log4jDemo - This is an error message
+[FATAL] 2020-01-14 22:01:10.433 [main] Log4jDemo - This is a fatal message

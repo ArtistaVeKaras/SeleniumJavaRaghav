@@ -37,12 +37,12 @@ Explicit wait for certain elements where you think it needs more time or you wan
     */
 
    public static DriverUtil util = new DriverUtil();
-   static WebDriver driver = null;
+   //static WebDriver driver = null;
 
 @Test
    public static void SeleniumDemo(){
     String projectPath = System.getProperty("user.dir");
-    System.setProperty("webdriver.gecko.driver",projectPath+"\\src\\test\\java\\util\\drivers\\geckodriver.exe");
+    System.setProperty("webdriver.gecko.driver",projectPath+"/src/test/java/util/drivers/geckodriver.exe");
     WebDriver driver = new FirefoxDriver();
 
     driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
@@ -51,8 +51,8 @@ Explicit wait for certain elements where you think it needs more time or you wan
     driver.findElement(By.name("q")).sendKeys("Automation");
     driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[3]/center/input[1]")).sendKeys(Keys.RETURN);
 
-    WebDriverWait wait = new WebDriverWait(driver, 10);
-    WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id("what")));
+   // WebDriverWait wait = new WebDriverWait(driver, 10);
+    //WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id("what")));
     //this test will fail as expected
 }
 }

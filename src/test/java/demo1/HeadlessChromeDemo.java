@@ -44,8 +44,9 @@ HtmlUnit browser can be run with Web Driver and not with Selenium RC.
 
     @Test
     public void test(){
-
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\claud\\AutomationProjects\\inteljProject\\src\\test\\java\\chrome73\\chromedriver.exe");
+    	
+        //The path needs to inspected C: does not exist in the linux system!!
+        System.setProperty("webdriver.chrome.driver","/Users/claud/AutomationProjects/inteljProject/src/test/java/chrome73/chromedriver.exe");
 
         //Adding a headless argument this will be passed as an argument
         ChromeOptions options = new ChromeOptions();

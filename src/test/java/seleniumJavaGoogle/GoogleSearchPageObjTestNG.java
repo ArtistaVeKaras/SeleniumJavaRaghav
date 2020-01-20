@@ -20,7 +20,7 @@ public class GoogleSearchPageObjTestNG {
     public static void setUp(){
         String projectPath = System.getProperty("user.dir");
         System.out.println("ProjectPath : "+ projectPath);
-        System.setProperty("webdriver.gecko.driver", projectPath+"\\src\\test\\java\\util\\drivers\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", projectPath+"/src/test/java/util/drivers/geckodriver.exe");
         driver = new FirefoxDriver();
     }
 
