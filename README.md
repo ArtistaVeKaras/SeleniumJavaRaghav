@@ -1,3 +1,5 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ArtistaVeKaras/inteljProject) 
+
 _Read me file is main for me to take notes of the continuation of the project "😎""!_
 
 ##
