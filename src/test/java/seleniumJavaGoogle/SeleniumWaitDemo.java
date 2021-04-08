@@ -3,17 +3,14 @@ package seleniumJavaGoogle;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import util.DriverUtil;
 
 import java.util.concurrent.TimeUnit;
 
-public class SeleniumWaitDemo extends DriverUtil{
-   /*/
+public class SeleniumWaitDemo extends DriverUtil {
+   /*
     Why we use waits
 The elements load time on a web page can vary Not all the elements are loaded at the same time
 In applications developed using Ajax, Javascript etc, objects on web page may load at different time
@@ -36,24 +33,24 @@ You can set an implicit wait for entire session and
 Explicit wait for certain elements where you think it needs more time or you want to wait until some specific condition is try
     */
 
-   public static DriverUtil util = new DriverUtil();
-   //static WebDriver driver = null;
+    public static DriverUtil util = new DriverUtil();
+    //static WebDriver driver = null;
 
-@Test
-   public static void SeleniumDemo(){
-    String projectPath = System.getProperty("user.dir");
-    System.setProperty("webdriver.gecko.driver",projectPath+"/src/test/java/util/drivers/geckodriver.exe");
-    WebDriver driver = new FirefoxDriver();
+    @Test
+    public static void SeleniumDemo() {
+        String projectPath = System.getProperty("user.dir");
+        System.setProperty("webdriver.gecko.driver", projectPath + "/src/test/java/util/drivers/geckodriver.exe");
+        WebDriver driver = new FirefoxDriver();
 
-    driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-    driver.get("https://google.com");
-    driver.findElement(By.name("q")).sendKeys("Automation");
-    driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[3]/center/input[1]")).sendKeys(Keys.RETURN);
+        driver.get("https://google.com");
+        driver.findElement(By.name("q")).sendKeys("Automation");
+        driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[3]/center/input[1]")).sendKeys(Keys.RETURN);
 
-   // WebDriverWait wait = new WebDriverWait(driver, 10);
-    //WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id("what")));
-    //this test will fail as expected
-}
+        // WebDriverWait wait = new WebDriverWait(driver, 10);
+        //WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id("what")));
+        //this test will fail as expected
+    }
 }
 
