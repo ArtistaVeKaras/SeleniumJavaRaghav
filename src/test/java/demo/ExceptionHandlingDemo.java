@@ -19,7 +19,6 @@ public class ExceptionHandlingDemo {
                 System.out.println("Test Completed");
             }
             catch (Exception exp){
-                System.out.println("I am inside the try block");
                 System.out.println("Message is " +exp.getMessage());
                 System.out.println("Cause is " +exp.getCause());
                 exp.printStackTrace();

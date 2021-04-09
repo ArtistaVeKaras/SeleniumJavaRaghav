@@ -15,12 +15,13 @@ public class WebDriverManagers extends googleSearchText {
      *  NOTE: this is very slow when running the tests
      *  The dependencies needs to be added to the pom.xml file
      * */
+
     //setting a private/public driver
     public static WebDriver driver = null;
 
     public static void main(String[] args) {
 
-        SetDrivers();
+        setDrivers();
         searchingGoogleAutomation();
     }
 
@@ -34,7 +35,7 @@ public class WebDriverManagers extends googleSearchText {
     }
 
     // Setting up WebDriverManagers without downloading the exe drivers
-    public static void SetDrivers() {
+    public static void setDrivers() {
         WebDriverManager.firefoxdriver().setup();
         driver = new FirefoxDriver();
         //WebDriverManager.chromedriver().version("2.36").setup();
