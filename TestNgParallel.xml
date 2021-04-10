@@ -3,24 +3,24 @@
 
 <!--Run test on multiple browsers When running the test always run it with the xml file -->
     <test name="RunOnFirefox">
-        <parameter name="browserName" value="firefox"></parameter>
+        <parameter name="browserName" value="firefox"/>
         <classes>
             <class name="demo1.TestNGParallelTest"/>
         </classes>
     </test>
 
     <test name="RunOnChrome">
-        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="browserName" value="chrome"/>
         <classes>
             <class name="demo1.TestNGParallelTest"/>
         </classes>
     </test>
-
+<!--
     <test name="RunOnIE">
-        <parameter name="browserName" value="IE"></parameter>
+        <parameter name="browserName" value="IE"/>
         <classes>
             <class name="demo1.TestNGParallelTest"/>
         </classes>
     </test>
-
+-->
 </suite>

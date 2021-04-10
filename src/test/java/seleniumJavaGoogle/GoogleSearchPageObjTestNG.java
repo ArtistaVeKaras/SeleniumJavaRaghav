@@ -25,7 +25,6 @@ public class GoogleSearchPageObjTestNG {
 
     @Test
     public static void searchGoogle() {
-        setUp();
         GoogleSearchPageObject searchPageObj = new GoogleSearchPageObject(driver);
         String url = "https://duckduckgo.com/";
         driver.get(url);

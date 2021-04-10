@@ -1,17 +1,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<!--This will add include only the test that you want to run as part of your test suite-->
+<!--This will include only the test that you want to run as part of your test suite-->
 <suite name="Suite1">
     <test  name="Test1">
         <groups>
 
             <!--Metadata is to define what needs to be included in the group -->
-            <!--The follwoing will only run the regression and smoke tests-->
+            <!--The following will only run the regression and smoke tests-->
             <define name="Regression1">
-                <include name="regression"></include>
-                <include name="smoke"></include>
+                <include name="regression"/>
+                <include name="smoke"/>
             </define>
             <run>
-                <include name="Regression1"></include>
+                <include name="Regression1"/>
             </run>
         </groups>
         <classes>
