@@ -26,11 +26,10 @@ public class ExcelUtils {
    * Get number of rows in the Excel sheet
    * @param rowNum extract the number of rows
    */
-  public static void getRowCount(int rowNum){
-
+  public static int getRowCount(int rowNum){
+    int rowCount = 0;
     try {
-//      sheet = workbook.getSheet(sheetName);
-      int rowCount = sheet.getPhysicalNumberOfRows();
+      rowCount = sheet.getPhysicalNumberOfRows();
       sheet.createRow(rowNum);
       System.out.println("Number of rows: " +rowCount);
 
@@ -39,16 +38,17 @@ public class ExcelUtils {
       System.out.println(e.getCause());
       e.printStackTrace();
     }
+    return rowCount;
   }
 
   /**
    * Get column count in the excel sheet
    * @param colNum extract the number of columns
    */
-  public static void getColCount(int colNum){
-
+  public static int getColCount(int colNum){
+    int colCount = 0;
     try {
-      int colCount = sheet.getRow(colNum).getPhysicalNumberOfCells();
+      colCount = sheet.getRow(colNum).getPhysicalNumberOfCells();
       System.out.println("Number of cols: " +colCount);
 
     }catch(Exception  e){
@@ -56,6 +56,7 @@ public class ExcelUtils {
       System.out.println(e.getCause());
       e.printStackTrace();
     }
+    return colCount;
   }
 
   /**
@@ -64,16 +65,18 @@ public class ExcelUtils {
    * @param cellNum cell Number to extract the date from.
    *                Prints Password
    */
-  public static void getStringCellData(int rowNum, int cellNum){
+  public static String getCellStringData(int rowNum, int cellNum){
+    String cellData=null;
     try {
-      String getRowCell = sheet.getRow(rowNum).getCell(cellNum).getStringCellValue();
-      System.out.println("Current String: " + getRowCell);
+      cellData = sheet.getRow(rowNum).getCell(cellNum).getStringCellValue();
+      System.out.println(cellData);
 
     }catch(Exception e){
       System.out.println(e.getMessage());
       System.out.println(e.getCause());
       e.printStackTrace();
     }
+    return cellData;
   }
 
   /* 1- In all excel functions use rowNum, colNum as parameters
@@ -94,7 +97,7 @@ public class ExcelUtils {
 
     try {
       double getRowCell = sheet.getRow(rowNum).getCell(cellNum).getNumericCellValue();
-      System.out.println("The numerice value is: "+ getRowCell);
+      System.out.println("The numeric value is: "+ getRowCell);
 
     }catch(Exception e){
       System.out.println(e.getMessage());

@@ -9,12 +9,13 @@ import org.testng.annotations.*;
 
 public class TestNGParallelTest {
 
-    // run tests in multi browser in parallel
     static WebDriver driver = null;
 
     @BeforeTest
     @Parameters("browserName")
     public static void setUp(String browserName) {
+        System.out.println("Current browser is :" + browserName);
+        System.out.println("Thread id:" +Thread.currentThread().getName());
 
         if (browserName.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
