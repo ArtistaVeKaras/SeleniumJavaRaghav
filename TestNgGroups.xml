@@ -15,7 +15,8 @@
             </run>
         </groups>
         <classes>
-            <class name="demo1.TestNGGroups"/>
+            <!--need to include the class name for this to work this wont work as there is no groups define in this class-->
+            <class name="applitools.Applitools"/>
         </classes>
     </test>
 </suite>

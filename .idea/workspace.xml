@@ -5,19 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9595408a-a036-465c-b5b3-c21de1dbacb1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/demo1/BrowserStackDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/util/ExcelDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/util/ExcelDataProviderWithTestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/applitools/Applitools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testAutomationUniversity/SeleniumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testAutomationUniversity/TestWithConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testAutomationUniversity/WithAssertionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Excel/.~lock.data.xlsx#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo/helloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo1/TestNGParallelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo1/TestNGParallelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo1/TestNgRerunTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo1/TestNgRerunTestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNgDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNgDependencies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNgGroups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNgGroups.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNgParallel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNgParallel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extendReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/extendReports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extent1.html" beforeDir="false" afterPath="$PROJECT_DIR$/extent1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo/Log4jDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/Log4jDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo1/BrowserStackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNG/BrowserStackDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo1/HeadlessChromeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNG/HeadlessChromeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo1/TestNGDependenciesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNG/TestNGDependenciesDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo1/TestNGGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNG/TestNGGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo1/TestNGIgnoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNG/TestNGIgnoreDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo1/TestNGParallelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNG/TestNGParallelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo1/TestNGPirority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNG/TestNGPirority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo1/TestNgRerunTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNG/TestNgRerunTestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/googlePages/ExtendReportHtmlDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/googlePages/ExtendReportHtmlDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ClickAllTabPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ClickAllTabPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumJavaGoogle/WebDriverManagers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumJavaGoogle/WebDriverManagers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdef/LoginTestPageRegularx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdef/loginTestPageRegularx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdef/VerifyLoginLogoutSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdef/VerifyLoginLogoutSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/DriverUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/DriverUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/ExcelDataProviderWithTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/ExcelDataProviderWithTestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/ExcelUtilDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/ExcelUtilDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/util/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/ExcelUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/demo1/TestNGParallelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/demo1/TestNGParallelTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/demo1/TestNgRerunTestDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/demo1/TestNgRerunTestDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ExcelUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/drivers/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/VerifyLoginLogout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/VerifyLoginLogout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AmazonLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AmazonLogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BookYourJet.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BookYourJet.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DataTable.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DataTable.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTestpageRegx.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginTestpageRegx.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ScenarioOutlineExamplesTable.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ScenarioOutlineExamplesTable.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/VerifyClickAllTab.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/VerifyClickAllTab.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/VerifyLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/VerifyLogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/VerifyLoginLogout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/VerifyLoginLogout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/demo/Log4jDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/demo/Log4jDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/demo1/HeadlessChromeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/demo1/TestNGDependenciesDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/demo1/TestNGGroups.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/demo1/TestNGIgnoreDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/demo1/TestNGParallelTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/demo1/TestNGPirority.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/demo1/TestNgRerunTestDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/googlePages/ExtendReportHtmlDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/googlePages/ExtendReportHtmlDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/seleniumJavaGoogle/WebDriverManagers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/seleniumJavaGoogle/WebDriverManagers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdef/LoginTestPageRegularx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdef/VerifyLoginLogoutSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdef/VerifyLoginLogoutSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/DriverUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/DriverUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +101,15 @@
     <setting file="file://$PROJECT_DIR$/src/test/java/seleniumJavaGoogle/SeleniumWaitDemo.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="SKIP_INSPECTION" />
   </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="4" />
+  </component>
   <component name="ProjectId" id="1UoPoQ9a8PEriRSG5Y1bKx5BYEy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -65,9 +117,11 @@
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="compactDirectories" value="true" />
+    <option name="flattenModules" value="true" />
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -75,28 +129,33 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/admin/Intelj Idea/TestAutomateScondVersion/src/test/java/pages/LoginPages.java" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576018902458" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Excel" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/util/drivers" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.VCS" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/util/drivers" />
       <recent name="$PROJECT_DIR$/Excel" />
       <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\chrome73" />
       <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers\chrome73" />
       <recent name="C:\Users\claud\AutomationProjects\inteljProject" />
-      <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/properties" />
       <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java\util\drivers" />
       <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\resources" />
       <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\test\java" />
       <recent name="C:\Users\claud\AutomationProjects\inteljProject\src\resources1" />
-      <recent name="$PROJECT_DIR$/src/test/java/util" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testAutomationUniversity" />
       <recent name="googlePages" />
       <recent name="listeners" />
       <recent name="seleniumJavaGoogle" />
@@ -108,14 +167,14 @@
       <command value="git" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.BrowserStackDemo">
-    <configuration name="BrowserStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo1.BrowserStackDemo" />
+  <component name="RunManager" selected="Application.ChromeDesiredCapabilities">
+    <configuration name="ChromeDesiredCapabilities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="googlePages.ChromeDesiredCapabilities" />
       <module name="TestAutomate" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo1.*" />
+          <option name="PATTERN" value="googlePages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,13 +182,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExcelDataProvider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="util.ExcelDataProvider" />
+    <configuration name="ExceptionHandlingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.ExceptionHandlingDemo" />
       <module name="TestAutomate" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="util.*" />
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Log4jDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Log4jDemo" />
+      <module name="TestAutomate" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,35 +223,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrowserStackDemo.browserStack" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutomate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo1.*" />
+          <option name="PATTERN" value="testAutomationUniversity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo1" />
-      <option name="MAIN_CLASS_NAME" value="demo1.BrowserStackDemo" />
-      <option name="METHOD_NAME" value="browserStack" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNgRerunTestDemo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo1" />
-      <option name="MAIN_CLASS_NAME" value="demo1.TestNgRerunTestDemo" />
+      <option name="PACKAGE_NAME" value="testAutomationUniversity" />
+      <option name="MAIN_CLASS_NAME" value="testAutomationUniversity.SeleniumTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -187,10 +241,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/home/claudio/Documents/GitProj/selenium-projects/SeleinumCucumber-Rahgav/TestNgParallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WithAssertionsTest.firstAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutomate" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNgParallel.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testAutomationUniversity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testAutomationUniversity" />
+      <option name="MAIN_CLASS_NAME" value="testAutomationUniversity.WithAssertionsTest" />
+      <option name="METHOD_NAME" value="firstAssertion" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -207,13 +269,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.SeleniumTest" />
+      <item itemvalue="TestNG.WithAssertionsTest.firstAssertion" />
+      <item itemvalue="Application.Log4jDemo" />
+      <item itemvalue="Application.ExceptionHandlingDemo" />
+      <item itemvalue="Application.ChromeDesiredCapabilities" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BrowserStackDemo" />
-        <item itemvalue="TestNG.BrowserStackDemo.browserStack" />
-        <item itemvalue="TestNG.TestNgRerunTestDemo" />
-        <item itemvalue="TestNG./home/claudio/Documents/GitProj/selenium-projects/SeleinumCucumber-Rahgav/TestNgParallel.xml" />
-        <item itemvalue="Application.ExcelDataProvider" />
+        <item itemvalue="Application.ChromeDesiredCapabilities" />
+        <item itemvalue="Application.Log4jDemo" />
+        <item itemvalue="Application.ExceptionHandlingDemo" />
+        <item itemvalue="TestNG.WithAssertionsTest.firstAssertion" />
+        <item itemvalue="TestNG.SeleniumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -265,6 +334,16 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testAutomationUniversity/TestWithConfiguration.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testNG/HeadlessChromeDemo.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

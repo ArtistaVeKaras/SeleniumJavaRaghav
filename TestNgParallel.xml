@@ -5,14 +5,14 @@
     <test name="RunOnFirefox">
         <parameter name="browserName" value="firefox"/>
         <classes>
-            <class name="demo1.TestNGParallelTest"/>
+            <class name="applitools.Applitools"/>
         </classes>
     </test>
 
     <test name="RunOnChrome">
         <parameter name="browserName" value="chrome"/>
         <classes>
-            <class name="demo1.TestNGParallelTest"/>
+            <class name="applitools.Applitools"/>
         </classes>
     </test>
 <!--
