@@ -15,7 +15,7 @@ public class ExcelUtils {
    * Constructor takes two parameters
    * @param sheetName the name of the excel sheet to be used
    * @param excelPath the path of the excel sheet
-   * @throws IOException
+   * @throws IOException Throws an IOException
    */
   public ExcelUtils(String sheetName, String excelPath) throws IOException {
     workbook = new XSSFWorkbook(excelPath);

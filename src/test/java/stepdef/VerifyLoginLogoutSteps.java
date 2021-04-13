@@ -15,7 +15,7 @@ public class VerifyLoginLogoutSteps extends DriverUtil {
 //    creating an object will give you access to all the methods of that particular class
 
     @Given("^am on the \"([^\"]*)\" page and the title is \"([^\"]*)\"$")
-    public void am_on_the_page_and_the_title_is(String value, String data) throws Throwable {
+    public void am_on_the_page_and_the_title_is(String value, String data) {
       switch (value){
         case "Login":
             String actualLoginPageTitle = driver.getTitle();

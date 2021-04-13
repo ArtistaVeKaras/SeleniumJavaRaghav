@@ -21,7 +21,7 @@ public class Log4jDemo {
      * OFF   -->  The highest possible rank and is intended to turn off logging.
      * built-in log levels with increasing order of severity
      * Logger --> will log the information on the console or the file
-     * Appenders --> Console or File
+     * Appender --> Console or File
      * Format --> Is the way log messages are formatted for the console or the file
      * helpful tips
      *
@@ -35,11 +35,11 @@ public class Log4jDemo {
      * Set of key-value pairs
      * Within a configuration you can define three main components:
      * Loggers
-     * Appenders
+     * Appender
      * Layouts
      * Configuring logging via a file has the advantage that logging can be turned on or off without modifying the application that uses Log4j.
      */
-    private static Logger logger = LogManager.getLogger(Log4jDemo.class);
+    private static final Logger logger = LogManager.getLogger(Log4jDemo.class);
 
     public static void main(String[] args) {
 
@@ -47,8 +47,8 @@ public class Log4jDemo {
         logger.debug("This is a debug message");
         logger.info("This is an info message");
         logger.warn("This is a warn message");
-        logger.error("This is an error message");
-        logger.fatal("This is a fatal message");
+        logger.error("This is an error message!");
+        logger.fatal("This is a fatal message!");
     }
 }
 

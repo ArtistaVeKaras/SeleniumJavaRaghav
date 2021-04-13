@@ -38,8 +38,6 @@ public class WebDriverManagers extends googleSearchText {
     public static void setDrivers() {
         WebDriverManager.firefoxdriver().setup();
         driver = new FirefoxDriver();
-        //WebDriverManager.chromedriver().version("2.36").setup();
-        //WebDriver driver = new ChromeDriver();
 
     }
 }

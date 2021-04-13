@@ -53,7 +53,7 @@ public class ExtendReportHtmlDemo {
         test.info("Test Completed");
 
         //test with snapshot
-        test.addScreencastFromPath("screenshoot.png");
+        test.addScreencastFromPath("screenshot.png");
 
         // calling flash writes everything to the log file
         extent.flush();

@@ -8,34 +8,34 @@ public class ClickAllTabPage  extends DriverUtil {
 
     LoginPages loginPage = new LoginPages();
 
-    By tradeyourjet = By.id("TradeYourJet");// search for this element on the web inspect element
-    By bookyourjet  = By.id("bookyourjettab");
-    By justtrade    = By.id("justtradetab");
-    By aboutus      = By.id("aboutustab");
-    By confirmaboutus = By.cssSelector(".content-header");// why the css.selector and not element??
+    By tradeYourJetrjet = By.id("TradeYourJet");// search for this element on the web inspect element
+    By bookYourJet  = By.id("bookyourjettab");
+    By justTrade    = By.id("justtradetab");
+    By aboutUs      = By.id("aboutustab");
+    By confirmAboutUs = By.cssSelector(".content-header");// why the css.selector and not element??
 
     public void launchur() throws InterruptedException {
         loginPage.launchurl();
     }
 
     public void tradeYourJet() throws InterruptedException{
-        driver.findElement(tradeyourjet).click();
+        driver.findElement(tradeYourJetrjet).click();
     }
     public void bookYourJet() throws InterruptedException  {
-        driver.findElement(bookyourjet).click();
+        driver.findElement(bookYourJet).click();
     }
     public void justTrade() throws InterruptedException   {
-        driver.findElement(justtrade).click();
+        driver.findElement(justTrade).click();
     }
     public void aboutUs()    throws InterruptedException  {
-        driver.findElement(aboutus).click();
+        driver.findElement(aboutUs).click();
     }
 
     public void confirmAboutusPage() {
 
-        Boolean actualTitle = driver.findElement(confirmaboutus).isDisplayed();
-        boolean expectedTitle = true;
-        Assert.assertEquals(actualTitle, expectedTitle);
+        Boolean actualTitle = driver.findElement(confirmAboutUs).isDisplayed();
+        String expectedTitle = "";
+        Assert.assertEquals(expectedTitle, actualTitle);
 
     }
 

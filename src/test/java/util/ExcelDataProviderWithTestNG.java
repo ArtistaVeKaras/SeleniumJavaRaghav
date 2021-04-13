@@ -2,7 +2,7 @@ package util;
 
 public class ExcelDataProviderWithTestNG {
 
-    /**
+    /*
      * How to get test data from excel sheet with testng
      *
      * 1- Create a function and provide testNG annotation
