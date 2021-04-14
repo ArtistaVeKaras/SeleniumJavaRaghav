@@ -270,11 +270,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.SeleniumTest" />
-      <item itemvalue="TestNG.WithAssertionsTest.firstAssertion" />
       <item itemvalue="Application.Log4jDemo" />
       <item itemvalue="Application.ExceptionHandlingDemo" />
       <item itemvalue="Application.ChromeDesiredCapabilities" />
+      <item itemvalue="TestNG.SeleniumTest" />
+      <item itemvalue="TestNG.WithAssertionsTest.firstAssertion" />
     </list>
     <recent_temporary>
       <list>
